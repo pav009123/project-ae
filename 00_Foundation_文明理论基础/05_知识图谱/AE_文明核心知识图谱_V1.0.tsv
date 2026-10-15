@@ -1,0 +1,65 @@
+source	relation	target	status	primary_file
+低生育率与长寿命	drives	智慧劳动力长期不足	frozen	43_埃纳人口约束与跨物种文明起源机制_V1.0.md
+智慧劳动力长期不足	drives	早期跨物种共居	frozen	43_埃纳人口约束与跨物种文明起源机制_V1.0.md
+共生激素场与电生理相容	enables	天然低敌意与基础互感	frozen	埃纳与共生类_共生激素场及共居互利关系_上位规则_V0.8.00.md
+早期跨物种共居	prefigures	生命工程文明	frozen	43_埃纳人口约束与跨物种文明起源机制_V1.0.md
+完整基础科学	supports	生命工程	frozen	39_AE文明科技树总纲_V1.0.md
+工程载体公理	selects	生命_机械_混合载体	foundation	AE_文明公理与科技哲学_Foundation1.0.md
+奖励空间	shapes	人格与长期文明方向	frozen	49_AE生命架构多样性与战争生命学派_V1.0.md
+错误奖励设计	causes	生命架构黑暗时代	frozen	45_AE生命架构黑暗时代与错误生命治理_V1.0.md
+主体性危机	drives	创造不产生所有权	frozen	46_AE被创造者憎恨与第一次主体性危机_V1.0.md
+延寿	causes	奖励衰减与意义边际下降	frozen	47_AE休眠学与生命具身代理网络_V1.0.md
+奖励衰减	drives	文明休眠学	frozen	47_AE休眠学与生命具身代理网络_V1.0.md
+大型固定智慧生命	causes	体验错配	frozen	48_AE第一次体验革命与具身代理技术起源_V1.0.md
+体验错配	drives	生命具身代理网络	frozen	48_AE第一次体验革命与具身代理技术起源_V1.0.md
+生命架构多样性	enables	战争生命学派并存	frozen	49_AE生命架构多样性与战争生命学派_V1.0.md
+成熟银河文明	precedes	地球发现事件	foundation	AE_银河文明与地球发现线_Living_V0.1.md
+架构文明独立主体性	enables	其先发现地球并自主决策	living	AE_银河文明与地球发现线_Living_V0.1.md
+地球主体工程门槛	causes	银河接触争论	living	AE_银河文明与地球发现线_Living_V0.1.md
+潜在主体保护	无法排除主体性时先保护	伦理原则	Foundation 1.1	01_公理与哲学/AE_主体论_Foundation1.1.md
+主体连续性	因果连续而非记忆复制	身份原则	Foundation 1.1	01_公理与哲学/AE_主体论_Foundation1.1.md
+第一次文明创伤	暴烈文明预防性战争	历史起点	M2-1	04_活文档/AE_第一次文明创伤与母花战争起源_Living_V0.1.md
+第一代母花	综合生命培育与工程平台	科技史	M2-1	04_活文档/AE_第一次文明创伤与母花战争起源_Living_V0.1.md
+文明快速自我迭代	共思—母花闭环压缩设计反馈周期	战争范式	M2-1	04_活文档/AE_第一次文明创伤与母花战争起源_Living_V0.1.md
+文明存在权不可裁决	解除危险能力但不终极裁决存在资格	战争伦理	Foundation 1.1 / M2-1	04_活文档/AE_第一次文明创伤与母花战争起源_Living_V0.1.md
+AE Reference Studies	separates	参考方法与现行设定	governance	06_参考研究/README.md
+流浪仙人参考研究	informs	世界规则_多体系互证_生态社会历史链	RS-01	06_参考研究/RS-01_流浪仙人/README.md
+谱系遗传_发育控制_后天生命状态	frames	埃纳遗传与生命本质研究	open research	06_参考研究/RS-01_流浪仙人/README.md
+原创边界	prohibits	复制具体角色名称情节组织物种	frozen	06_参考研究/README.md
+共振核发育	导致	长期紧密家庭	frozen	04_活文档/AE_埃纳社会教育与创造文明_Living_V0.1.md
+奖励生态	支撑	全员创造型社会	frozen	04_活文档/AE_埃纳社会教育与创造文明_Living_V0.1.md
+文明同行	连接	教育与银河外交	frozen	04_活文档/AE_埃纳社会教育与创造文明_Living_V0.1.md
+生态失控事故	促成	异质性复核制度	frozen	04_活文档/AE_共生星制度形成史_Living_V0.1.md
+神族埃纳	源于	奖励基础改写失败	frozen	04_活文档/AE_文明路线生态与神族埃纳_Living_V0.1.md
+神族埃纳	通过	附属文明与自我优化形成力量均衡	frozen	04_活文档/AE_文明路线生态与神族埃纳_Living_V0.1.md
+主流成长路线	对立但合作	神族优化路线	frozen	04_活文档/AE_文明路线生态与神族埃纳_Living_V0.1.md
+生命信息论	状态	Reserved	reserved	04_活文档/AE_生命信息论_Reserved_V0.1.md
+自然生命发展路径	requires	自然祖先_自利适应_独立生态位	foundation	生命行为与文明造物设计法_Foundation-001_V1.2.md
+文明造物设计路径	requires	替代方案比较_主体边界_完整生活可能性_跨代责任	foundation	生命行为与文明造物设计法_Foundation-001_V1.2.md
+设计目的	does_not_create	所有权与永久任务义务	foundation	生命行为与文明造物设计法_Foundation-001_V1.2.md
+个体主体性	independent_from	种群文明自组织	working theory	智慧生命_文明冲动与次生文明独立谱系_V0.2.md
+T-SPACE-01	is	埃纳被造完整主体生命	stage frozen	02_生物系统/旗舰生命工程/T-SPACE-01_太空运力生命_阶段冻结总卡_V0.3.md
+T-SPACE-01	precedes	第一座母花	stage frozen	02_生物系统/旗舰生命工程/T-SPACE-01_太空运力生命_阶段冻结总卡_V0.3.md
+T-SPACE-01	requires	K5到K6跨门槛的完整主体造生能力	pending evidence	05_工作区与项目治理/01_当前开发工作区_未冻结/T-SPACE-01_太空运力生命/T-SPACE-01_前母花时代造生技术链与K级冲突审计_V0.2.md
+T-SPACE-01_T12	establishes	轨道家庭_开放奖励_非任务人生_跨代责任_持续升级	candidate	02_生物系统/旗舰生命工程/T-SPACE-01_T12_轨道常住生命的一生与生活生态位闭环_候选稿_V0.2.md
+T-SPACE-01_T13	uses	行星_轨道_质量_推进_热_地面承托_生命_种群_升级_文明变量账本	next task	05_工作区与项目治理/01_当前开发工作区_未冻结/T-SPACE-01_太空运力生命/T-SPACE-01_T12_物理预算输入变量表_V0.2.tsv
+T-SPACE-01	has_primary_habitat	轨道家庭与轨道社会	stage frozen	02_生物系统/旗舰生命工程/T-SPACE-01_太空运力生命_阶段冻结总卡_V0.3.md
+T-SPACE-01	uses_surface_as	短时承接_改造_装载_再发射终端	stage frozen	02_生物系统/旗舰生命工程/T-SPACE-01_太空运力生命_阶段冻结总卡_V0.3.md
+T-SPACE-01	mission_cycle	空载下降_载货上升_回归轨道家庭	stage frozen	02_生物系统/旗舰生命工程/T-SPACE-01_太空运力生命_阶段冻结总卡_V0.3.md
+T-SPACE-01	remains_upgradeable_by	体细胞遗传编辑_器官重构_后代遗传发育改版	stage frozen	02_生物系统/旗舰生命工程/T-SPACE-01_前母花时代创造技术链_候选稿_V0.2.md
+完整埃纳教育_长期责任训练_文明器官协调	forms	成熟埃纳个体化文明核心	frozen	04_活文档/AE_文明路线生态与神族埃纳_Living_V0.4.md
+成熟埃纳个体化文明核心	implies	个人边界兼具文明主权重量	frozen	04_活文档/AE_文明路线生态与神族埃纳_Living_V0.4.md
+主体埃纳_神族埃纳	share	承认其他成熟埃纳为同级文明核心	frozen	04_活文档/AE_文明路线生态与神族埃纳_Living_V0.4.md
+文明层级差	creates_dispute_over	外部低层文明长期治理权	frozen	04_活文档/AE_文明路线生态与神族埃纳_Living_V0.4.md
+低生育_高独立_流动奖励_因果距离	causes	埃纳高潜能低集中度	frozen	04_活文档/AE_银河文明权力结构与未来边界_Living_V0.3.md
+埃纳高潜能低集中度	prevents	长期银河中央政府	frozen	04_活文档/AE_银河文明权力结构与未来边界_Living_V0.3.md
+泛生文明分布式节点	sustains	埃纳泛生长期多前线对抗	frozen	04_活文档/AE_银河文明权力结构与未来边界_Living_V0.3.md
+工程虫洞技术	not_unique_to	埃纳	frozen	04_活文档/AE_银河文明权力结构与未来边界_Living_V0.3.md
+虫洞生命伙伴_随行锚点	enables	埃纳文明核心高机动远行与撤离	frozen	04_活文档/AE_银河文明权力结构与未来边界_Living_V0.3.md
+恐龙时代地球项目	precedes	生命架构师小行星生态干预	stage frozen	01_世界设定与项目规则/01_现行总控覆盖/56_神族埃纳与地球生命架构师线_阶段总纲_V2.0.md
+受伤战争路线主体埃纳	triggers	古代抢人战与长期ICU	stage frozen	01_世界设定与项目规则/01_现行总控覆盖/56_神族埃纳与地球生命架构师线_阶段总纲_V2.0.md
+数千万年ICU	causes	生命架构师与地球深度耦合	stage frozen	01_世界设定与项目规则/01_现行总控覆盖/56_神族埃纳与地球生命架构师线_阶段总纲_V2.0.md
+地球深度耦合	enables	人类灭世拒止真实威慑	stage frozen	01_世界设定与项目规则/01_现行总控覆盖/56_神族埃纳与地球生命架构师线_阶段总纲_V2.0.md
+神族人类和解	creates	人类自治文明_神族埃纳主权文明体并存	stage frozen	01_世界设定与项目规则/01_现行总控覆盖/56_神族埃纳与地球生命架构师线_阶段总纲_V2.0.md
+黑暗森林顶层文明	imposes	人类太阳系战略封锁	stage frozen	01_世界设定与项目规则/01_现行总控覆盖/56_神族埃纳与地球生命架构师线_阶段总纲_V2.0.md
+泛生前线进入太阳系	may_enable	人类第二次真正独立	long-term direction	01_世界设定与项目规则/01_现行总控覆盖/56_神族埃纳与地球生命架构师线_阶段总纲_V2.0.md

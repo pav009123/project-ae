@@ -1,0 +1,116 @@
+{
+  "status": "ILLUSTRATIVE TOY CALCULATION ONLY; NOT OBSERVATIONAL DATA",
+  "inputs": {
+    "G_SI": 6.6743e-11,
+    "M_sun_kg": 1.98847e+30,
+    "kpc_m": 3.085677581491367e+19,
+    "mass_Msun": 10000000000.0,
+    "a0_m_s2": 1.2e-10,
+    "background_A_B_C_n": [
+      0.25,
+      0.65,
+      0.05,
+      0.5
+    ]
+  },
+  "rotation_table": [
+    {
+      "r_kpc": 1,
+      "v_newton_km_s": 207.3896653479821,
+      "v_toy_km_s": 207.7700857949206,
+      "g_newton_m_s2": 1.3938745107763403e-09,
+      "g_toy_m_s2": 1.398992843910949e-09
+    },
+    {
+      "r_kpc": 3,
+      "v_newton_km_s": 119.73647911580387,
+      "v_toy_km_s": 130.7561563679972,
+      "g_newton_m_s2": 1.5487494564181562e-10,
+      "g_toy_m_s2": 1.8469387437716614e-10
+    },
+    {
+      "r_kpc": 10,
+      "v_newton_km_s": 65.58237056797202,
+      "v_toy_km_s": 113.98001603302838,
+      "g_newton_m_s2": 1.3938745107763407e-11,
+      "g_toy_m_s2": 4.2102402833060716e-11
+    },
+    {
+      "r_kpc": 30,
+      "v_newton_km_s": 37.86399930151243,
+      "v_toy_km_s": 112.51932994230677,
+      "g_newton_m_s2": 1.5487494564181559e-12,
+      "g_toy_m_s2": 1.3676736336730924e-11
+    },
+    {
+      "r_kpc": 100,
+      "v_newton_km_s": 20.73896653479821,
+      "v_toy_km_s": 112.35426440710309,
+      "g_newton_m_s2": 1.3938745107763402e-13,
+      "g_toy_m_s2": 4.0909914911978776e-12
+    }
+  ],
+  "asymptotic_speed_km_s": 112.33795228546452,
+  "transition_radius_kpc": 3.4081697321489393,
+  "max_rotation_relative_residual": 2.220446049250313e-16,
+  "background_table": [
+    {
+      "a": 0.1,
+      "rho_X_normalized": 250.8081138830084,
+      "p_X_normalized": -0.7817615691736826,
+      "w_X": -0.0031169708071659198
+    },
+    {
+      "a": 0.5,
+      "rho_X_normalized": 2.7207106781186545,
+      "p_X_normalized": -0.708925565098879,
+      "w_X": -0.26056631849921447
+    },
+    {
+      "a": 1.0,
+      "rho_X_normalized": 0.9500000000000001,
+      "p_X_normalized": -0.6916666666666667,
+      "w_X": -0.7280701754385964
+    },
+    {
+      "a": 2.0,
+      "rho_X_normalized": 0.7166053390593274,
+      "p_X_normalized": -0.6794627825494395,
+      "w_X": -0.9481687415856486
+    }
+  ],
+  "max_background_relative_residual": 4.532821365366443e-16,
+  "single_mode_relaxation": [
+    {
+      "t_over_tau": 0,
+      "q_over_initial": 1.0
+    },
+    {
+      "t_over_tau": 1,
+      "q_over_initial": 0.36787944117144233
+    },
+    {
+      "t_over_tau": 3,
+      "q_over_initial": 0.049787068367863944
+    },
+    {
+      "t_over_tau": 5,
+      "q_over_initial": 0.006737946999085467
+    }
+  ],
+  "schwarzschild_horizon_K_ratio_M2_over_M1_for_M2_equal_10M1": 0.0001,
+  "checks_passed": [
+    "weak-field algebra",
+    "background continuity identity",
+    "finite passive relaxation",
+    "horizon curvature scaling"
+  ],
+  "not_performed": [
+    "complete field equations",
+    "ghost/hyperbolicity proof",
+    "CMB/BAO/lensing fit",
+    "cluster-merger simulation",
+    "wormhole stability",
+    "engineering feasibility"
+  ]
+}

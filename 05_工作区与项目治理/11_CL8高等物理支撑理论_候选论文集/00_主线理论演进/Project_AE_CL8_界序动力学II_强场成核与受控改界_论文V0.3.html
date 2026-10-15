@@ -1,0 +1,8939 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pav009123.github.io/project-ae/05_%E5%B7%A5%E4%BD%9C%E5%8C%BA%E4%B8%8E%E9%A1%B9%E7%9B%AE%E6%B2%BB%E7%90%86/11_CL8%E9%AB%98%E7%AD%89%E7%89%A9%E7%90%86%E6%94%AF%E6%92%91%E7%90%86%E8%AE%BA_%E5%80%99%E9%80%89%E8%AE%BA%E6%96%87%E9%9B%86/00_%E4%B8%BB%E7%BA%BF%E7%90%86%E8%AE%BA%E6%BC%94%E8%BF%9B/Project_AE_CL8_%E7%95%8C%E5%BA%8F%E5%8A%A8%E5%8A%9B%E5%AD%A6II_%E5%BC%BA%E5%9C%BA%E6%88%90%E6%A0%B8%E4%B8%8E%E5%8F%97%E6%8E%A7%E6%94%B9%E7%95%8C_%E8%AE%BA%E6%96%87V0.3.html">
+      
+      
+        <link rel="prev" href="../README_%E5%BD%92%E6%A1%A3%E4%B8%8E%E8%AF%BB%E5%8F%96%E8%A7%84%E5%88%99.html">
+      
+      
+        <link rel="next" href="Project_AE_CL8_%E7%95%8C%E5%BA%8F%E6%89%8B%E5%BE%81%E8%AE%BA_%E5%AE%87%E7%A7%B0%E7%A0%B4%E7%BC%BA%E4%B8%8E%E5%AE%9A%E5%90%91%E6%94%B9%E7%95%8C_%E8%AE%BA%E6%96%87V0.5.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Project AE｜界序动力学Ⅱ：强场成核、界序缺陷与受控改界 - Project AE 世界观 Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-aeii" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../../index.html" title="Project AE 世界观 Wiki" class="md-header__button md-logo" aria-label="Project AE 世界观 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Project AE 世界观 Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project AE｜界序动力学Ⅱ：强场成核、界序缺陷与受控改界
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到暗色"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到暗色" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到亮色"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到亮色" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../index.html" title="Project AE 世界观 Wiki" class="md-nav__button md-logo" aria-label="Project AE 世界观 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Project AE 世界观 Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE 世界观 Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.0.1_%E9%93%B6%E6%B2%B3%E6%9D%83%E5%8A%9B%E7%BB%93%E6%9E%84.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.0.1｜银河权力结构阶段冻结
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.0.2_M1%E9%93%B6%E6%B2%B3%E6%96%87%E6%98%8E%E6%80%BB%E7%BA%B2%E5%86%BB%E7%BB%93.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.0.2｜M1 银河文明总纲冻结
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.1.0_%E4%B8%BB%E4%BD%93%E8%AE%BA%E4%B8%8E%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%96%87%E6%98%8E%E5%88%9B%E4%BC%A4.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.1.0｜Foundation 主体论与第一次文明创伤
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.1.1_%E5%8F%82%E8%80%83%E7%A0%94%E7%A9%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E6%B5%81%E6%B5%AA%E4%BB%99%E4%BA%BA%E7%A0%94%E7%A9%B6%E5%85%A5%E5%8F%A3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.1.1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.2.0_%E6%96%87%E6%98%8E%E7%94%9F%E6%80%81%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.2.0｜文明生态建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.3.0_%E6%96%87%E6%98%8E%E8%B5%B7%E6%BA%90%E4%B8%8E%E9%93%B6%E6%B2%B3%E4%B8%BB%E7%BA%BF%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    V1.3.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.0_%E6%97%A9%E6%9C%9F%E8%BD%A8%E9%81%93%E7%94%9F%E5%91%BD%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%99%BA%E6%85%A7%E7%94%9F%E5%91%BD%E5%88%86%E5%B1%82%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.0｜早期轨道生命工程与智慧生命分层建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.10_%E9%93%B6%E6%B2%B3%E8%BF%9C%E5%B2%B8%E6%B5%AE%E7%A4%81%E5%88%9D%E9%81%87%E4%B8%8E%E8%BF%A6%E6%B4%9B%E6%88%98%E4%BA%89%E4%BD%93%E7%B3%BB%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.10｜银河远岸、浮礁初遇与迦洛战争体系建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.11_%E6%B7%B1%E5%9F%9F%E5%B7%A5%E7%A8%8B_%E6%96%87%E6%98%8E%E5%B1%82%E7%BA%A7%E4%B8%8E%E9%9D%9E%E7%94%9F%E5%91%BD%E6%88%98%E4%BA%89%E6%8A%80%E6%9C%AF%E4%BD%93%E7%B3%BB%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.11｜深域工程、文明层级与非生命战争技术体系建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.12_%E6%97%B6%E7%A9%BA%E6%9E%84%E6%80%81%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%8E%E7%BB%87%E8%BD%A8%E4%BD%93%E6%88%98%E4%BA%89%E7%94%9F%E5%91%BD%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.12｜时空构态动力学与织轨体战争生命建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.13_%E5%A4%A7%E9%BA%A6%E5%93%B2%E4%BC%A6%E8%BF%9C%E5%B2%B8%E6%94%B6%E6%9D%9F%E4%B8%8E%E6%B2%B3%E5%A4%96%E6%96%87%E6%98%8E%E6%AF%8D%E8%8A%82%E7%82%B9%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.13｜大麦哲伦远岸收束与河外文明母节点建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.14_CL8%E7%95%8C%E5%BA%8F%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%8E%E5%8E%86%E5%8F%B2%E8%8D%89%E7%A8%BF%E5%AE%8C%E6%95%B4%E5%BD%92%E6%A1%A3%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.14｜CL8界序动力学与历史草稿完整归档版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.15_CL8%E9%AB%98%E7%AD%89%E7%89%A9%E7%90%86%E5%A4%9A%E6%94%AF%E6%92%91%E7%90%86%E8%AE%BA%E5%BD%92%E6%A1%A3%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.15｜CL8高等物理多支撑理论归档版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.16_%E9%95%BF%E7%94%9F%E4%B8%BB%E4%BD%93%E7%A7%91%E5%AD%A6%E8%89%BA%E6%9C%AF%E8%A7%82%E4%B8%8E%E7%8E%9B%E5%A8%9C%E6%96%87%E6%98%8E%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.16｜长生主体、科学—艺术观与玛娜文明建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.17_%E5%A5%96%E5%9F%9F%E5%85%B1%E7%94%9F%E4%BD%93%E4%B8%8E%E4%BB%99%E5%A2%83%E9%AD%94%E6%88%92%E5%BC%8F%E9%81%97%E4%BA%A7%E6%94%AF%E7%BA%BF%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.17｜奖域共生体与仙境“魔戒式”遗产支线建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.18_M87%E5%8F%8CCL6%E7%BB%88%E6%9E%81%E6%88%98%E4%BA%89%E4%B8%8E%E6%9C%AC%E5%BE%81%E6%96%87%E6%98%8E%E4%B8%BB%E4%BD%93%E6%9C%BA%E5%88%B6%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.18｜M87双CL6终极战争与本征文明主体机制建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.19_%E5%88%9B%E4%BD%9C%E6%80%BB%E5%88%99%E4%B8%8E%E7%BA%AF%E6%81%B6%E5%8F%8D%E6%B4%BE%E7%A1%AC%E8%A7%84%E5%88%99%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.19｜创作总则与纯恶反派硬规则建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.1_%E5%9F%83%E7%BA%B3%E9%80%A0%E7%89%A9%E8%B5%B7%E6%BA%90%E4%B8%8ET12%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E9%97%AD%E7%8E%AF%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.1｜埃纳造物起源与 T12 生命周期闭环版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.2_%E8%BD%A8%E9%81%93%E5%AE%B6%E5%BA%AD%E4%B8%8E%E5%8F%AF%E6%8C%81%E7%BB%AD%E7%94%9F%E7%89%A9%E5%8D%87%E7%BA%A7%E7%BA%A0%E5%81%8F%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.2｜轨道家庭与可持续生物升级纠偏版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.3_%E5%AE%87%E5%AE%99%E7%94%9F%E5%91%BD%E5%A4%9A%E4%BD%93%E7%B3%BB%E5%8D%B0%E8%AF%81%E4%B8%8E%E7%A5%9E%E6%80%A7%E8%BE%B9%E7%95%8C%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.3｜宇宙生命多体系印证与神性边界版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.4_%E7%A5%9E%E6%A6%82%E5%BF%B5%E5%A4%96%E9%83%A8%E6%9D%A5%E6%BA%90%E4%B8%8E%E7%A5%9E%E6%97%8F%E5%86%85%E5%8C%96%E4%BF%AE%E6%AD%A3%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.4｜神概念外部来源与神族内化修正版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.5_%E4%BB%99%E5%A2%83%E9%81%97%E4%BA%A7%E4%B8%8E%E5%90%8E%E5%9F%83%E7%BA%B3%E9%AD%94%E6%B3%95%E6%96%87%E6%98%8E%E6%A1%86%E6%9E%B6%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.5｜仙境遗产与后埃纳魔法文明框架版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.6_%E7%A5%9E%E6%97%8F%E8%8C%A7%E6%88%98%E4%BA%89%E4%B8%8E%E7%AC%AC%E4%B8%80%E9%AD%94%E6%B3%95%E4%B8%96%E7%95%8C%E6%A1%86%E6%9E%B6%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.6｜神族茧战争与第一魔法世界框架版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.7_G03%E5%9C%B0%E7%90%83%E7%BA%BF%E5%9F%BA%E7%BA%BF%E6%B8%85%E7%90%86%E4%B8%8E%E9%93%B6%E6%B2%B3%E6%94%BF%E6%B2%BB%E6%A0%A1%E5%87%86%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.7｜G03地球线基线清理与银河政治校准版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.8_%E5%9F%83%E7%BA%B3%E7%A4%BE%E4%BC%9A%E7%BB%93%E6%9E%84%E4%B8%8E%E7%9F%AD%E5%AF%BF%E8%93%9D%E6%98%9F%E6%96%87%E6%98%8E%E7%BA%BF%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.8｜埃纳社会结构与短寿蓝星文明线建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG_V1.4.9_%E8%BF%AD%E7%94%9F%E6%96%87%E6%98%8E%E9%99%84%E5%B1%9E%E4%B8%8E%E5%8E%9F%E6%A0%96%E6%92%A4%E7%A6%BB%E7%BB%88%E5%B1%80%E5%BB%BA%E7%AB%8B%E7%89%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHANGELOG V1.4.9｜迭生文明附属与原栖撤离终局建立版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CURRENT_VERSION.txt.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CURRENT_VERSION.txt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../README_%E5%8E%9F%E6%96%87.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AE-Ena Project 总包
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_30" >
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 Foundation 文明理论基础
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 Foundation 文明理论基础
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/_README.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE Foundation 1.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/%E6%99%BA%E6%85%A7%E7%94%9F%E5%91%BD_%E6%96%87%E6%98%8E%E5%86%B2%E5%8A%A8%E4%B8%8E%E6%AC%A1%E7%94%9F%E6%96%87%E6%98%8E%E7%8B%AC%E7%AB%8B%E8%B0%B1%E7%B3%BB_V0.2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    智慧生命、主体性、文明冲动与次生文明独立谱系 V0.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/%E7%94%9F%E5%91%BD%E8%A1%8C%E4%B8%BA%E4%B8%8E%E6%96%87%E6%98%8E%E9%80%A0%E7%89%A9%E8%AE%BE%E8%AE%A1%E6%B3%95_Foundation-001_V1.2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    生命行为与文明造物设计法｜Foundation-001 V1.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/01_%E5%85%AC%E7%90%86%E4%B8%8E%E5%93%B2%E5%AD%A6/AE_%E4%B8%BB%E4%BD%93%E8%AE%BA_Foundation1.1.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 公理与哲学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/02_%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95/AE_%E6%96%87%E6%98%8E%E5%8F%91%E7%8E%B0%E6%B3%95%E4%B8%8E%E4%B8%80%E8%87%B4%E6%80%A7%E9%AA%8C%E8%AF%81_Foundation1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 开发方法
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/03_%E5%86%B3%E7%AD%96%E6%97%A5%E5%BF%97/DECISION_LOG_Foundation1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 决策日志
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/04_%E6%B4%BB%E6%96%87%E6%A1%A3/AE_%E5%85%B1%E7%94%9F%E6%98%9F%E5%88%B6%E5%BA%A6%E5%BD%A2%E6%88%90%E5%8F%B2_Living_V0.1.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 活文档
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/05_%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/AE_%E6%96%87%E6%98%8E%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1_V1.0.tsv.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 知识图谱
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../00_Foundation_%E6%96%87%E6%98%8E%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/06_%E5%8F%82%E8%80%83%E7%A0%94%E7%A9%B6/_README.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 参考研究
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_31" >
+        
+          
+          <label class="md-nav__link" for="__nav_31" id="__nav_31_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 项目总览
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_31_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 项目总览
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_%E9%A1%B9%E7%9B%AE%E6%80%BB%E8%A7%88/00_AI%E6%80%BB%E7%B4%A2%E5%BC%95.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE AI 总索引
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_%E9%A1%B9%E7%9B%AE%E6%80%BB%E8%A7%88/01_%E9%A1%B9%E7%9B%AE%E7%9B%AE%E6%A0%87%E4%B8%8E%E7%B3%BB%E7%BB%9F%E9%80%BB%E8%BE%91.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    项目目标与系统逻辑
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_%E9%A1%B9%E7%9B%AE%E6%80%BB%E8%A7%88/02_%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81%E4%B8%8E%E4%B8%8B%E4%B8%80%E6%AD%A5.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    当前状态与下一步
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_%E9%A1%B9%E7%9B%AE%E6%80%BB%E8%A7%88/CURRENT_VERSION.txt.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CURRENT_VERSION.txt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_%E9%A1%B9%E7%9B%AE%E6%80%BB%E8%A7%88/DP01_%E6%B7%B1%E5%9F%9F%E5%85%B3%E9%94%AE%E7%90%86%E8%AE%BA%E8%AE%BA%E6%96%87%E5%85%A5%E5%8F%A3_V1.0.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DP-01 深域关键理论论文入口 V1.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../00_%E9%A1%B9%E7%9B%AE%E6%80%BB%E8%A7%88/90_%E6%97%A7%E7%89%88%E5%85%A5%E5%8F%A3%E4%B8%8E%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95/CHANGELOG_V0.7.15.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    90 旧版入口与版本记录
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_32" >
+        
+          
+          <label class="md-nav__link" for="__nav_32" id="__nav_32_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 世界设定与项目规则
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_32_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_32">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 世界设定与项目规则
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_%E4%B8%96%E7%95%8C%E8%AE%BE%E5%AE%9A%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99/00_Project_AE_%E5%88%9B%E4%BD%9C%E6%80%BB%E5%88%99_V1.0.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE｜创作总则 V1.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_%E4%B8%96%E7%95%8C%E8%AE%BE%E5%AE%9A%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99/_README.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    世界设定与项目规则
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../01_%E4%B8%96%E7%95%8C%E8%AE%BE%E5%AE%9A%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99/01_%E7%8E%B0%E8%A1%8C%E6%80%BB%E6%8E%A7%E8%A6%86%E7%9B%96/01_%E5%85%B1%E7%94%9F%E6%98%9F%E7%8E%AF%E5%A2%83%E6%B9%BF%E5%BA%A6%E4%B8%8E%E8%84%89%E6%BD%AE%E6%B9%BF%E5%8C%96%E6%80%BB%E4%BF%AE%E8%AE%A2_V0.8.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 现行总控覆盖
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../01_%E4%B8%96%E7%95%8C%E8%AE%BE%E5%AE%9A%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99/02_%E8%A7%84%E5%88%99%E9%97%B8%E9%97%A8/00_%E5%85%A8%E9%A1%B9%E7%9B%AE%E9%97%B8%E9%97%A8%E5%88%86%E5%B1%82%E6%80%BB%E6%8E%A7%E8%A7%84%E5%88%99_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 规则闸门
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../01_%E4%B8%96%E7%95%8C%E8%AE%BE%E5%AE%9A%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99/03_%E5%9F%83%E7%BA%B3%E4%B8%8E%E5%85%B1%E7%94%9F%E7%B1%BB%E4%B8%8A%E4%BD%8D%E8%A7%84%E5%88%99/AE_%E6%96%87%E6%98%8E%E5%BA%95%E5%B1%82%E7%90%86%E8%AE%BA%E7%A0%94%E7%A9%B6%E8%AE%B0%E5%BD%95_%E7%94%B5%E7%A3%81%E6%96%87%E6%98%8E%E8%B7%AF%E7%BA%BF_V0.1.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 埃纳与共生类上位规则
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../01_%E4%B8%96%E7%95%8C%E8%AE%BE%E5%AE%9A%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99/04_%E5%91%BD%E5%90%8D%E7%B3%BB%E7%BB%9F/LANG-ENA_%E8%B7%9D%E7%A6%BB%E5%88%86%E5%B1%82%E8%AF%AD%E8%A8%80%E4%B8%8E%E5%91%BD%E5%90%8D%E6%80%BB%E5%88%99_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 命名系统
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../01_%E4%B8%96%E7%95%8C%E8%AE%BE%E5%AE%9A%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99/05_V0.8.01%E7%94%9F%E5%91%BD%E4%BD%93%E7%B3%BB%E5%AE%A1%E6%A0%B8/M7%E5%BE%AE%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E9%87%8D%E6%96%B0%E5%AE%A1%E6%A0%B8%E6%8A%A5%E5%91%8A_V0.8.01.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 V0.8.01生命体系审核
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../01_%E4%B8%96%E7%95%8C%E8%AE%BE%E5%AE%9A%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99/06_%E9%A1%B9%E7%9B%AE%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E5%BD%92%E6%A1%A3/%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E5%BD%92%E6%A1%A3%E8%A7%84%E8%8C%83_V1.1.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 项目工作流与归档
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_33" >
+        
+          
+          <label class="md-nav__link" for="__nav_33" id="__nav_33_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 生物系统
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_33_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_33">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 生物系统
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F/_README.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    生物系统
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../02_%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F/01_%E6%A4%8D%E7%89%A9%E7%B3%BB%E7%BB%9F/00_%E6%80%BB%E8%A7%84%E5%88%99/%E6%A4%8D%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BA%8C%E6%AC%A1%E9%87%8D%E6%9E%84%E6%80%BB%E8%A7%84%E5%88%99_V0.1.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 植物系统
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../02_%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F/02_%E5%8A%A8%E7%89%A9%E7%B3%BB%E7%BB%9F/06_%E6%97%97%E8%88%B0%E5%85%B1%E7%94%9F%E7%B1%BB%E5%80%99%E9%80%89/%E7%BA%B3%E9%B2%81_Naru/%E7%BA%B3%E9%B2%81_Naru_%E5%BD%A2%E6%80%81%E8%A1%8C%E4%B8%BA%E4%B8%8E%E8%A7%86%E8%A7%89%E9%87%8D%E6%9E%84%E5%8D%A1_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 动物系统
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../02_%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F/03_%E5%BE%AE%E7%94%9F%E7%89%A9%E4%B8%8E%E5%88%86%E8%A7%A3%E8%80%85%E7%B3%BB%E7%BB%9F/00_%E6%80%BB%E8%A7%84%E5%88%99/M7%E5%BE%AE%E7%94%9F%E7%89%A9%E5%91%BD%E5%90%8D%E4%B8%8E%E5%88%86%E7%B1%BB%E5%8D%A0%E4%BD%8D%E8%A7%84%E5%88%99_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 微生物与分解者系统
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../02_%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F/04_%E8%83%BD%E6%BA%90%E7%94%9F%E5%91%BD%E4%BD%93%E7%B3%BB/README_V0.8.02.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 能源生命体系
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../02_%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F/05_%E5%9F%83%E7%BA%B3%E6%99%BA%E6%85%A7%E7%A7%8D/01_%E7%8E%B0%E8%A1%8C%E5%86%BB%E7%BB%93%E8%AE%BE%E5%AE%9A/00_README_%E6%9B%B4%E6%96%B0%E5%8C%85%E8%AF%B4%E6%98%8E.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 埃纳智慧种
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../02_%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F/06_%E9%93%B6%E6%B2%B3%E6%99%BA%E6%85%A7%E6%96%87%E6%98%8E/%E7%93%A6%E8%B5%AB/%E8%A7%86%E8%A7%89%E8%B5%84%E4%BA%A7/README_V1.4.6.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 银河智慧文明
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../02_%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F/%E6%97%97%E8%88%B0%E7%94%9F%E5%91%BD%E5%B7%A5%E7%A8%8B/T-SPACE-01_T12_%E8%BD%A8%E9%81%93%E5%B8%B8%E4%BD%8F%E7%94%9F%E5%91%BD%E7%9A%84%E4%B8%80%E7%94%9F%E4%B8%8E%E7%94%9F%E6%B4%BB%E7%94%9F%E6%80%81%E4%BD%8D%E9%97%AD%E7%8E%AF_%E5%80%99%E9%80%89%E7%A8%BF_V0.2.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    旗舰生命工程
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_34" >
+        
+          
+          <label class="md-nav__link" for="__nav_34" id="__nav_34_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 区域生态与环境
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_34_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_34">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 区域生态与环境
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_%E5%8C%BA%E5%9F%9F%E7%94%9F%E6%80%81%E4%B8%8E%E7%8E%AF%E5%A2%83/_README.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    区域生态与环境
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../03_%E5%8C%BA%E5%9F%9F%E7%94%9F%E6%80%81%E4%B8%8E%E7%8E%AF%E5%A2%83/01_%E7%8E%AF%E5%A2%83%E7%B3%BB%E7%BB%9F/ENV-R01_%E6%B0%B4%E5%9F%9F%E4%B8%8E%E7%A9%BA%E5%9F%9F%E7%8E%AF%E5%A2%83%E5%9F%BA%E7%BA%BF/01_%E5%9F%BA%E7%BA%BF/AQUA-E01_%E5%85%B1%E7%94%9F%E6%98%9F%E6%A0%B8%E5%BF%83%E6%A0%B7%E6%9C%AC%E5%8C%BA%E6%B0%B4%E5%9F%9F%E7%8E%AF%E5%A2%83%E5%9F%BA%E7%BA%BF_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 环境系统
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../03_%E5%8C%BA%E5%9F%9F%E7%94%9F%E6%80%81%E4%B8%8E%E7%8E%AF%E5%A2%83/02_%E7%94%9F%E6%80%81%E6%9D%83%E5%A8%81%E4%B8%BB%E8%A1%A8/%E5%85%AD%E5%8D%81%E4%B8%89%E7%A7%8D%E7%8E%B0%E8%A1%8C%E7%94%9F%E6%80%81%E4%B8%BB%E8%A1%A8_V1.3.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 生态权威主表
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../03_%E5%8C%BA%E5%9F%9F%E7%94%9F%E6%80%81%E4%B8%8E%E7%8E%AF%E5%A2%83/03_%E7%94%9F%E6%80%81%E7%BD%91%E7%BB%9C/01_%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/ECO-NET-01_%E7%94%9F%E6%80%81%E7%BD%91%E7%BB%9C%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%E5%AE%A1%E6%9F%A5%E7%A8%BF_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 生态网络
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../03_%E5%8C%BA%E5%9F%9F%E7%94%9F%E6%80%81%E4%B8%8E%E7%8E%AF%E5%A2%83/04_M6%E6%A0%B7%E6%9C%AC%E5%8C%BA%E9%98%B6%E6%AE%B5%E8%AE%B0%E5%BD%95/01_M6-01%E8%87%B3M6-20%E7%AB%9E%E4%BA%89%E4%BC%98%E5%8C%96/M6-01%E8%87%B3M6-20_%E7%94%9F%E5%AD%98%E7%B9%81%E8%A1%8D%E7%AB%9E%E4%BA%89%E4%BC%98%E5%8C%96%E6%80%BB%E8%A1%A8.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 M6样本区阶段记录
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_35" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_35" id="__nav_35_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 工作区与项目治理
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_35_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_35">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    05 工作区与项目治理
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Project_AE_%E6%80%BB%E5%BC%80%E5%8F%91%E7%9C%8B%E6%9D%BF%E4%B8%8E%E6%97%97%E8%88%B0%E7%94%9F%E5%91%BDToDo_V1.3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE 总开发看板与旗舰生命 To-do V1.3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Project_AE_%E6%80%BB%E5%BC%80%E5%8F%91%E7%9C%8B%E6%9D%BF%E4%B8%8E%E6%97%97%E8%88%B0%E7%94%9F%E5%91%BDToDo_V1.4.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE 总开发看板与旗舰生命ToDo V1.4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V1.4.15_%E6%AD%A3%E5%BC%8F%E5%BD%92%E6%A1%A3%E6%A0%A1%E9%AA%8C%E6%8A%A5%E5%91%8A.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    V1.4.15 正式归档校验报告
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V1.4.8_%E6%AD%A3%E5%BC%8F%E5%BD%92%E6%A1%A3%E6%A0%A1%E9%AA%8C%E6%8A%A5%E5%91%8A.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    V1.4.8 正式归档校验报告
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../_README.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工作区与项目治理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../01_%E5%BD%93%E5%89%8D%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E5%8C%BA_%E6%9C%AA%E5%86%BB%E7%BB%93/2026-07-29_T0-T6_%E6%AF%8D%E8%8A%B1%E4%B8%8E%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80%E8%AE%BE%E6%83%B3/Project_AE_2026-07-29_T0-T6_%E6%AF%8D%E8%8A%B1%E4%B8%8E%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80%E8%AE%BE%E6%83%B3_%E5%85%A8%E9%87%8F%E5%AE%8C%E6%95%B4%E5%A2%9E%E9%87%8F%E5%8C%85.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 当前开发工作区 未冻结
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../02_%E5%90%8E%E7%BB%AD%E4%BB%BB%E5%8A%A1%E9%98%9F%E5%88%97/AE_T0-T6%E4%B8%8E%E7%94%B5%E7%A3%81%E6%96%87%E6%98%8E%E5%BC%80%E5%8F%91%E5%BE%85%E5%8A%9E%E6%B8%85%E5%8D%95_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 后续任务队列
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../03_%E5%A4%8D%E5%AE%A1%E4%B8%8E%E4%B8%80%E8%87%B4%E6%80%A7%E6%A3%80%E6%9F%A5/00_%E5%A4%8D%E5%AE%A1%E7%9B%AE%E5%BD%95%E7%B4%A2%E5%BC%95.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 复审与一致性检查
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../04_G03%E6%95%85%E4%BA%8B%E5%BC%80%E5%8F%91/G03_T00_%E6%AD%A3%E5%BC%8F%E8%90%BD%E7%9B%98%E4%B8%8E%E6%97%A7%E7%BA%BF%E6%B8%85%E7%90%86_%E5%AE%A1%E8%AE%A1%E6%8A%A5%E5%91%8A_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 G03故事开发
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../04_M7%E8%87%AA%E7%84%B6%E6%BC%94%E5%8C%96%E4%B8%93%E9%A1%B9%E5%A4%8D%E6%A0%B8/00_M7%E4%B8%93%E9%A1%B9%E5%A4%8D%E6%A0%B8%E5%90%AF%E5%8A%A8%E8%AF%B4%E6%98%8E_V0.1.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 M7自然演化专项复核
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../05_G04%E7%9F%AD%E5%AF%BF%E8%93%9D%E6%98%9F%E6%96%87%E6%98%8E%E5%BC%80%E5%8F%91/G04_00_%E5%BC%80%E5%8F%91%E7%8A%B6%E6%80%81%E4%B8%8E%E8%AF%BB%E5%8F%96%E9%A1%BA%E5%BA%8F_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 G04短寿蓝星文明开发
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../05_%E8%B7%A8%E6%A8%A1%E5%9D%97%E5%BE%85%E5%AE%9A%E4%B8%8E%E7%A7%91%E6%8A%80%E6%A0%91%E6%8E%A5%E5%8F%A3/AE_%E7%94%B5%E7%A3%81%E5%AD%A6%E4%B8%8E%E8%AE%A1%E9%87%8F%E5%AD%A6_M0%E5%8F%82%E7%85%A7%E6%A0%A1%E5%87%86%E4%B8%8E%E8%AF%AF%E5%B7%AE%E8%AF%AD%E8%A8%80_%E5%80%99%E9%80%89%E7%A8%BF_V0.1.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 跨模块待定与科技树接口
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../06_%E8%BF%81%E7%A7%BB%E5%BD%B1%E5%93%8D%E4%B8%8E%E6%89%A7%E8%A1%8C/01_M5%E6%A4%8D%E7%89%A9%E7%B3%BB%E7%BB%9F%E5%8F%97%E5%BD%B1%E5%93%8D%E9%A1%B9.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 迁移影响与执行
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../07_%E6%AD%A3%E5%BC%8F%E5%90%8D%E7%A7%B0%E5%85%A8%E6%A8%A1%E5%9D%97%E5%9B%9E%E5%86%99/00_%E6%AD%A3%E5%BC%8F%E5%90%8D%E7%A7%B0%E5%9B%9E%E5%86%99%E6%8E%A7%E5%88%B6%E8%A7%84%E5%88%99_V0.7.80.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 正式名称全模块回写
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../08_%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F/Project_AE_%E5%A4%9A%E4%B8%93%E4%B8%9A%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F%E6%80%BB%E8%A7%84%E5%88%99_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 开发工作模式
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../09_G05%E5%A4%A7%E9%BA%A6%E5%93%B2%E4%BC%A6%E8%BF%9C%E5%B2%B8%E5%BC%80%E5%8F%91/G05_00_%E5%BC%80%E5%8F%91%E7%8A%B6%E6%80%81%E4%B8%8E%E8%AF%BB%E5%8F%96%E9%A1%BA%E5%BA%8F_V1.1.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 G05大麦哲伦远岸开发
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../10_CL8%E7%95%8C%E5%BA%8F%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%8E%E6%94%B9%E7%95%8C%E8%BF%81%E8%88%AA/Project_AE_CL8_%E7%95%8C%E5%BA%8F%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%8E%E6%94%B9%E7%95%8C%E8%BF%81%E8%88%AA_%E7%A7%91%E5%AD%A6%E5%8E%9F%E7%90%86%E8%8D%89%E6%A1%88_V0.2.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 CL8界序动力学与改界迁航
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../10_%E6%88%98%E4%BA%89%E7%94%9F%E5%91%BD%E4%B8%8E%E6%88%98%E4%BA%89%E5%99%A8%E5%AE%98%E5%BC%80%E5%8F%91/WL_00_%E5%BC%80%E5%8F%91%E7%8A%B6%E6%80%81%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%89%8D%E7%BD%AE_V1.2.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 战争生命与战争器官开发
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_35_19" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_35_19" id="__nav_35_19_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11 CL8高等物理支撑理论 候选论文集
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_35_19_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_35_19">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    11 CL8高等物理支撑理论 候选论文集
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../README_%E5%BD%92%E6%A1%A3%E4%B8%8E%E8%AF%BB%E5%8F%96%E8%A7%84%E5%88%99.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CL8 高等物理支撑理论候选论文集｜归档与读取规则
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_35_19_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_35_19_2" id="__nav_35_19_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 主线理论演进
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_35_19_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_35_19_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 主线理论演进
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE｜界序动力学Ⅱ：强场成核、界序缺陷与受控改界
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="Project_AE_CL8_%E7%95%8C%E5%BA%8F%E5%8A%A8%E5%8A%9B%E5%AD%A6II_%E5%BC%BA%E5%9C%BA%E6%88%90%E6%A0%B8%E4%B8%8E%E5%8F%97%E6%8E%A7%E6%94%B9%E7%95%8C_%E8%AE%BA%E6%96%87V0.3.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE｜界序动力学Ⅱ：强场成核、界序缺陷与受控改界
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cl7cl8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        从施温格机制的有限类比，到 CL7→CL8 的可检验科学史与工程假说
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        摘要
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0．阅读结论：这次真正补上的是什么
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1．与旧论文的关系及必要修正
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1．与旧论文的关系及必要修正">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-p" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 保留的世界观主干【P】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 本稿不再沿用的过强结论
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2．施温格机制实际允许我们借鉴什么
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2．施温格机制实际允许我们借鉴什么">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-r" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 不是从无中免费取出物质【R】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 可以借用的是“非微扰势垒”，不是电子的全部性质【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-rh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 动态辅助的现实启发【R/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3．理论分层：先保证旧物理仍然成立
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3．理论分层：先保证旧物理仍然成立">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-ph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 界序不是额外坐标【P/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 旧稿空间图作用量的修正【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-ph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 对应原理是匹配要求，不是写出箭头就完成推导【P/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4．最小新增假说：界序有“可重接的受限工作态”
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5．界序缺陷模型：相反的是取向，不是能量
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5．界序缺陷模型：相反的是取向，不是能量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 定义一条工程边界上的相位变量【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 普通相为什么不容易改变【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 缺陷与反缺陷【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6．从势垒到成核率：可以推导到哪一步
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6．从势垒到成核率：可以推导到哪一步">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 有驱动也未必立即失稳【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-hd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 薄壁成核指数【H/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 适用范围不能省略
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-de" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 “临界”更适合定义为可观测门槛【D/E】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7．黑洞深域怎样进入公式，而不变成万能解释
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7．黑洞深域怎样进入公式，而不变成万能解释">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-dp-01-ph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 与 DP-01 的接口【P/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 使用无量纲的局域环境指标【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-rd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 大黑洞不是局域曲率最大的天体【R/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4 深域提供条件，但不免费供能
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8．辅助成核：突破可能来自频谱，而不是只来自功率
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8．辅助成核：突破可能来自频谱，而不是只来自功率">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 候选驱动【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-bouncehd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 辅助成核需要重新找 bounce【H/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-ae-e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 对 AE 科学史的意义【E】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9．为什么宇宙不会平时不断“接错地方”
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9．为什么宇宙不会平时不断“接错地方”">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-hd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 无驱动真空不持续产出正能量缺陷【H/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 缺陷不是自我扩张的“更低宇宙真空”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#93" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 微观事件很多，不等于世界迁移很多
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10．从局部缺陷到“改谁在门外”：缺失的一步必须明写
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10．从局部缺陷到“改谁在门外”：缺失的一步必须明写">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#101-7d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.1 只有式（7），仍然没有超光速【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#102-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.2 新增非局域重接算符【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#103" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.3 缺陷的实用定位
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11．改界实施：有限时间的边界替换，而不是一句指令
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11．改界实施：有限时间的边界替换，而不是一句指令">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.1 为什么出现暂时的“外部解耦”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.2 一个可复核的连续控制曲线【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.3 与虫洞的区分以行为为准
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12．远界寻址：不能靠一张旧星图，也不能靠普通纠缠
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12．远界寻址：不能靠一张旧星图，也不能靠普通纠缠">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.1 旧光学数据只提供先验
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-rd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.2 普通纠缠不能替我们探测远方【R/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.3 寻址必须测到真实的非局域响应【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#124" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.4 “界址谱”不是唯一身份证
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13．因果：保留对应原理，但不能声称旧相对论已准许全部过程
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13．因果：保留对应原理，但不能声称旧相对论已准许全部过程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-rh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1 明确承担理论代价【R/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-ph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.2 全体历史无环是必要条件【P/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3 一个足够但不唯一的候选实现
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4 本稿尚未证明什么
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14．主体连续性、边界闭合与到达安全
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14．主体连续性、边界闭合与到达安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.1 连通指标只是底线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.2 到达端不能被当成空白
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.3 经典拓扑障碍没有被一句“微观”解除
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15．能量、动量、热与失败的完整账本
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15．能量、动量、热与失败的完整账本">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.1 成对零荷不等于零成本【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.2 不使用无条件的“全宇宙能量标量”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.3 面积与时间有下限，距离律仍开放
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.4 失效也必须有明确后果
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16．它究竟是不是五维捷径，或者另一种虫洞
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17．实验设计：怎样在故事里一步一步证明
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17．实验设计：怎样在故事里一步一步证明">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.1 多深域必须做预测检验
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.2 新随机信息比“同步闪了一下”更重要
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.3 意识伦理不能由数学替代
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18．实际计算结果：有用的推导，也有必要的负结果
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18．实际计算结果：有用的推导，也有必要的负结果">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#181" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18.1 真实常数量纲核对
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#182" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18.2 缺陷解复核
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#183" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18.3 势垒下降的指数收益，不代表已经能生产
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#184" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18.4 地址和连续性的反例
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19cl7cl8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19．CL7→CL8 科学史：不改写索恩的旧航程
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20．对生命体系、交通与冲突的影响
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20．对生命体系、交通与冲突的影响">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#201" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20.1 深域仍然重要
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#202" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20.2 虫洞伙伴没有被废掉
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#203" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20.3 不人为禁止技术的军事后果
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21．待审核的结论与尚未闭合的核心问题
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="21．待审核的结论与尚未闭合的核心问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        建议纳入候选基线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        本文实际证明到的范围
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        不得宣称已证明的内容
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22．结论
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        参考文献与核对范围
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="参考文献与核对范围">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        项目内来源
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录 A｜符号与量纲速查
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录 B｜本稿明确禁止的后续偷换
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录 C｜附件说明
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Project_AE_CL8_%E7%95%8C%E5%BA%8F%E6%89%8B%E5%BE%81%E8%AE%BA_%E5%AE%87%E7%A7%B0%E7%A0%B4%E7%BC%BA%E4%B8%8E%E5%AE%9A%E5%90%91%E6%94%B9%E7%95%8C_%E8%AE%BA%E6%96%87V0.5.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE｜CL8 界序手征论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Project_AE_CL8_%E7%95%8C%E5%BA%8F%E8%A7%84%E8%8C%83%E8%AE%BA_%E9%9D%9E%E9%98%BF%E8%B4%9D%E5%B0%94%E8%81%94%E7%BB%9C%E5%BC%BA%E5%9C%BA%E7%BC%BA%E9%99%B7%E4%B8%8E%E6%94%B9%E7%95%8C%E8%BF%81%E8%88%AA_%E8%AE%BA%E6%96%87V0.4.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project AE｜CL8 界序规范论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../01_%E5%85%AB%E7%AF%87%E7%8B%AC%E7%AB%8B%E6%94%AF%E6%92%91%E8%AE%BA%E6%96%87/CL8-S1_%E7%95%8C%E5%BA%8F%E8%B0%B1%E5%87%A0%E4%BD%95%E8%AE%BA.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 八篇独立支撑论文
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../12_%E7%8E%9B%E5%A8%9C%E4%B8%8E%E4%BE%8D%E5%BA%8F%E6%96%87%E6%98%8E%E5%BC%80%E5%8F%91/MANA_00_%E5%BC%80%E5%8F%91%E7%8A%B6%E6%80%81%E4%B8%8E%E8%AF%BB%E5%8F%96%E9%A1%BA%E5%BA%8F_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12 玛娜与侍序文明开发
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../13_%E4%BB%99%E5%A2%83%E5%A5%96%E5%9F%9F%E5%85%B1%E7%94%9F%E4%BD%93%E9%81%97%E4%BA%A7%E6%94%AF%E7%BA%BF/RSB_00_%E5%BC%80%E5%8F%91%E7%8A%B6%E6%80%81%E4%B8%8E%E8%AF%BB%E5%8F%96%E9%A1%BA%E5%BA%8F_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13 仙境奖域共生体遗产支线
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../14_M87%E6%96%87%E6%98%8E%E6%88%98%E4%BA%89%E4%B8%8E%E7%AC%AC%E4%B8%80%E6%AC%A1CL8%E8%BF%9C%E5%BE%81/M87_00_%E5%BC%80%E5%8F%91%E7%8A%B6%E6%80%81_%E8%AF%BB%E5%8F%96%E9%A1%BA%E5%BA%8F%E4%B8%8E%E6%8D%A2%E5%AF%B9%E8%AF%9DTODO_V1.0.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14 M87文明战争与第一次CL8远征
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cl7cl8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        从施温格机制的有限类比，到 CL7→CL8 的可检验科学史与工程假说
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        摘要
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0．阅读结论：这次真正补上的是什么
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1．与旧论文的关系及必要修正
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1．与旧论文的关系及必要修正">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-p" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 保留的世界观主干【P】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 本稿不再沿用的过强结论
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2．施温格机制实际允许我们借鉴什么
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2．施温格机制实际允许我们借鉴什么">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-r" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 不是从无中免费取出物质【R】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 可以借用的是“非微扰势垒”，不是电子的全部性质【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-rh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 动态辅助的现实启发【R/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3．理论分层：先保证旧物理仍然成立
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3．理论分层：先保证旧物理仍然成立">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-ph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 界序不是额外坐标【P/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 旧稿空间图作用量的修正【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-ph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 对应原理是匹配要求，不是写出箭头就完成推导【P/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4．最小新增假说：界序有“可重接的受限工作态”
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5．界序缺陷模型：相反的是取向，不是能量
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5．界序缺陷模型：相反的是取向，不是能量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 定义一条工程边界上的相位变量【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 普通相为什么不容易改变【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 缺陷与反缺陷【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6．从势垒到成核率：可以推导到哪一步
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6．从势垒到成核率：可以推导到哪一步">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 有驱动也未必立即失稳【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-hd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 薄壁成核指数【H/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 适用范围不能省略
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-de" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 “临界”更适合定义为可观测门槛【D/E】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7．黑洞深域怎样进入公式，而不变成万能解释
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7．黑洞深域怎样进入公式，而不变成万能解释">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-dp-01-ph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 与 DP-01 的接口【P/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 使用无量纲的局域环境指标【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-rd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 大黑洞不是局域曲率最大的天体【R/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4 深域提供条件，但不免费供能
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8．辅助成核：突破可能来自频谱，而不是只来自功率
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8．辅助成核：突破可能来自频谱，而不是只来自功率">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 候选驱动【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-bouncehd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 辅助成核需要重新找 bounce【H/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-ae-e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 对 AE 科学史的意义【E】
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9．为什么宇宙不会平时不断“接错地方”
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9．为什么宇宙不会平时不断“接错地方”">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-hd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 无驱动真空不持续产出正能量缺陷【H/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 缺陷不是自我扩张的“更低宇宙真空”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#93" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 微观事件很多，不等于世界迁移很多
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10．从局部缺陷到“改谁在门外”：缺失的一步必须明写
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10．从局部缺陷到“改谁在门外”：缺失的一步必须明写">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#101-7d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.1 只有式（7），仍然没有超光速【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#102-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.2 新增非局域重接算符【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#103" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.3 缺陷的实用定位
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11．改界实施：有限时间的边界替换，而不是一句指令
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11．改界实施：有限时间的边界替换，而不是一句指令">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.1 为什么出现暂时的“外部解耦”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.2 一个可复核的连续控制曲线【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.3 与虫洞的区分以行为为准
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12．远界寻址：不能靠一张旧星图，也不能靠普通纠缠
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12．远界寻址：不能靠一张旧星图，也不能靠普通纠缠">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.1 旧光学数据只提供先验
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-rd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.2 普通纠缠不能替我们探测远方【R/D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.3 寻址必须测到真实的非局域响应【H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#124" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.4 “界址谱”不是唯一身份证
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13．因果：保留对应原理，但不能声称旧相对论已准许全部过程
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13．因果：保留对应原理，但不能声称旧相对论已准许全部过程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-rh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1 明确承担理论代价【R/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-ph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.2 全体历史无环是必要条件【P/H】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3 一个足够但不唯一的候选实现
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4 本稿尚未证明什么
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14．主体连续性、边界闭合与到达安全
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14．主体连续性、边界闭合与到达安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.1 连通指标只是底线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.2 到达端不能被当成空白
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.3 经典拓扑障碍没有被一句“微观”解除
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15．能量、动量、热与失败的完整账本
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15．能量、动量、热与失败的完整账本">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.1 成对零荷不等于零成本【D】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.2 不使用无条件的“全宇宙能量标量”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.3 面积与时间有下限，距离律仍开放
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.4 失效也必须有明确后果
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16．它究竟是不是五维捷径，或者另一种虫洞
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17．实验设计：怎样在故事里一步一步证明
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17．实验设计：怎样在故事里一步一步证明">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.1 多深域必须做预测检验
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.2 新随机信息比“同步闪了一下”更重要
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.3 意识伦理不能由数学替代
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18．实际计算结果：有用的推导，也有必要的负结果
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18．实际计算结果：有用的推导，也有必要的负结果">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#181" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18.1 真实常数量纲核对
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#182" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18.2 缺陷解复核
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#183" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18.3 势垒下降的指数收益，不代表已经能生产
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#184" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18.4 地址和连续性的反例
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19cl7cl8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19．CL7→CL8 科学史：不改写索恩的旧航程
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20．对生命体系、交通与冲突的影响
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20．对生命体系、交通与冲突的影响">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#201" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20.1 深域仍然重要
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#202" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20.2 虫洞伙伴没有被废掉
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#203" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20.3 不人为禁止技术的军事后果
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21．待审核的结论与尚未闭合的核心问题
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="21．待审核的结论与尚未闭合的核心问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        建议纳入候选基线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        本文实际证明到的范围
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        不得宣称已证明的内容
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22．结论
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        参考文献与核对范围
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="参考文献与核对范围">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        项目内来源
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录 A｜符号与量纲速查
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录 B｜本稿明确禁止的后续偷换
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录 C｜附件说明
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="project-aeii">Project AE｜界序动力学Ⅱ：强场成核、界序缺陷与受控改界</h1>
+<h2 id="cl7cl8">从施温格机制的有限类比，到 CL7→CL8 的可检验科学史与工程假说</h2>
+<p><strong>文档编号：CL8-II　｜　版本：V0.3　｜　编制日期：2026-09-11</strong></p>
+<blockquote>
+<p><strong>性质：Project AE 世界观科学论文／理论构建稿，不是现实超光速技术论文。</strong></p>
+<p><strong>继承依据：</strong>《CL8界序动力学与改界迁航科学原理草案 V0.2》、项目总控《83｜CL8界序动力学、改界迁航与对应原理 V1.0》及《DP-01｜时空构态动力学》。</p>
+<p><strong>审批状态：<strong>沿用已批准的“界序—改界—对应原理”方向；本文新增的缺陷模型、强场耦合、成核规律、寻址机制与实施路径均为</strong>待审核候选</strong>，不自动覆盖既有 Canon。V1.4.14 总包及旧论文保持原样。</p>
+<p><strong>证据标识：</strong>【R】现实研究或已知数学；【H】AE 新增假说；【D】在明确假设内推得的结果；【E】工程建议／验收条件；【P】已有项目共识。没有标识的叙事性技术史均按候选理解。</p>
+</blockquote>
+<hr />
+<h2 id="_1">摘要</h2>
+<p>既有界序理论提出：普通四维时空的局域性和度规是更基础关系结构的有效表现；CL8 的“改界迁航”通过替换承载域的外部连接，而不是使物体沿原有空间超光速运动，实现无需预置目的端的远距离迁运。然而，旧稿尚缺少一种可以被观察、产生、稳定和逐步工程化的微观入口。</p>
+<p>本文以强场量子电动力学的施温格机制为<strong>有限的结构类比</strong>，提出“受驱界序缺陷成核”假说。普通界序相具有能隙与局域重接势垒；适当深域背景与外部驱动改变其有效参数，使一对相反拓扑取向、但都具有正能量的缺陷在有限工作层中成核。本文选择一个一维工程边界上的周期钉扎场作为最小模型，推导缺陷宽度、能量、局域稳定条件及薄壁近似下的成核指数，并把这些结果与双脉冲辅助驱动、黑洞环境标定和有限生命周期管理衔接。</p>
+<p>成核并不自动产生超光速。为连接到旧稿“改界”，本文另行明确三项不可隐藏的新假设：缺陷态可激活受限非局域重接算符；其响应可用于目的端事件的主动寻址；完整构态历史必须满足共同的无环因果约束。由此将发现缺陷、测得超光速信息响应、完成边界替换和承载主体迁运分为不同证据台阶。</p>
+<p>本文还修正旧稿中若干过强表达：正定空间图作用量不能直接推出洛伦兹时空；谱相同不等于对象相同；图连通不等于主体连续性得到证明；写下无环条件不等于已经证明自然界能实现因果保护；局域不超光速不等于整个过程已被未经扩展的相对论许可。附录包含实际运行的 22 项数学／数值检查。它们验证的是所选简化模型和反例，不是现实界序、超光速或完整量子引力。</p>
+<p>**关键词：**界序动力学；改界迁航；施温格机制；非微扰成核；拓扑缺陷；对应原理；远界寻址；主体连续性；深域工程。</p>
+<hr />
+<h2 id="0">0．阅读结论：这次真正补上的是什么</h2>
+<p>最有价值的候选技术史不是“先有一个万能方程，再造超光速发动机”，而是：</p>
+<p><strong>异常响应 → 成对缺陷 → 延寿与钉扎 → 局部重接 → 非局域响应 → 远界寻址 → 承载域改界 → 完整文明迁运。</strong></p>
+<p>其中每一个箭头都需要自己的证据，不允许省略。</p>
+<p>本稿建议把新现象的正式工作名定为**“界序成核”<strong>，更精确时称</strong>“受驱界序缺陷成核”**。“界序施温格效应”只作为研究史上的类比称呼；“真空击穿”可作通俗说法，但容易让人误解成超过一个阈值后整个宇宙都会崩坏，因此不作为最严格术语。</p>
+<p>以下三句话是全文边界：</p>
+<blockquote>
+<p><strong>施温格效应提供建模方法，不提供界序存在的证据。</strong></p>
+<p><strong>局部成核提供可操作的缺陷，不自动提供远方地址。</strong></p>
+<p><strong>只有真实信息、完整载荷与主体连续性分别通过验证，才有资格谈 CL8。</strong></p>
+</blockquote>
+<hr />
+<h2 id="1">1．与旧论文的关系及必要修正</h2>
+<h3 id="11-p">1.1 保留的世界观主干【P】</h3>
+<p>保留“界序动力学—界序工程—改界迁航”的命名与定位；不增加供飞船航行的第五个物理空间方向；普通局域区的物质与信号继续遵守既有有效光锥；不采用扫描、销毁、异地重建的主体运输；低能极限必须与已验证物理相容。多深域比较是突破的实验基础，单端自主寻址和完整个人文明迁运是 CL8 确立的重要门槛。</p>
+<h3 id="12">1.2 本稿不再沿用的过强结论</h3>
+<table>
+<thead>
+<tr>
+<th>旧表述或容易产生的误解</th>
+<th>V0.3 的修正</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>施温格对产生意味着界序也必然成对产生</td>
+<td>必须另设可定义的拓扑荷及适用边界，不能靠比喻代替守恒机制</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\Xi^-</span><script type="math/tex">\Xi^-</script></span> 可以理解为负能量或“反空间”</td>
+<td>正负号只标记拓扑取向；两个缺陷均可有正能量</td>
+</tr>
+<tr>
+<td>任意正权图的作用量自然变成四维相对论</td>
+<td>空间图只给空间耦合；时间动力学、对称性和连续极限须另行处理</td>
+</tr>
+<tr>
+<td>在黑洞旁曲率越强，所有门槛就越低</td>
+<td>具体耦合未知，符号也未必固定；质量、自旋、局域曲率与工程尺度不能混同</td>
+</tr>
+<tr>
+<td>一个图谱就是宇宙唯一地址</td>
+<td>不同图可同谱；必须联合响应、历史和事件定位，且允许无解或多解</td>
+</tr>
+<tr>
+<td>没有局域超光速，所以完全没有超出相对论</td>
+<td>普通区的局域规律保留；远程重接本身仍是超出普通局域 GR/QFT 的新假说</td>
+</tr>
+<tr>
+<td>因果图无环公式已经解决时间旅行</td>
+<td>公式给出一致性条件；必须再说明全体过程如何共同实现，而非只逐次局部检查</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\lambda_2&gt;0</span><script type="math/tex">\lambda_2>0</script></span> 证明同一主体运输成功</td>
+<td>它只检验空间连通性，不能证明意识、人格或体验连续</td>
+</tr>
+<tr>
+<td>不经过普通路程，所以能量必然与距离无关</td>
+<td>距离未必线性决定运输成本，但寻址、维护和成功率仍可能强烈依赖距离</td>
+</tr>
+</tbody>
+</table>
+<p>这些修正不撤销创作方向，而是把“已规定的目标”“模型能推得的结果”“仍需新物理的部分”分开。</p>
+<hr />
+<h2 id="2">2．施温格机制实际允许我们借鉴什么</h2>
+<h3 id="21-r">2.1 不是从无中免费取出物质【R】</h3>
+<p>在适用的外电场背景中，QED 真空可以发生电子—正电子对产生。能量来自维持或释放外场的系统；不能借“虚粒子短暂借能”绕过守恒。其特征电场为 [R1–R2]：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+E_S=\frac{m_e^2c^3}{|e|\hbar}\approx1.32\times10^{18}\ \mathrm{V/m}.
+\tag{1}
+</div>
+<script type="math/tex; mode=display">
+E_S=\frac{m_e^2c^3}{|e|\hbar}\approx1.32\times10^{18}\ \mathrm{V/m}.
+\tag{1}
+</script>
+</div>
+<p>对恒定、均匀电场的一圈自旋量子电动力学，真空持续概率可以写为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+P_0=\exp[-w_{\rm vac}V\mathcal T],\qquad
+w_{\rm vac}=\frac{(|e|E)^2}{4\pi^3\hbar^2c}
+\sum_{n=1}^{\infty}\frac{1}{n^2}
+\exp\!\left(-n\pi\frac{E_S}{E}\right).
+\tag{2}
+</div>
+<script type="math/tex; mode=display">
+P_0=\exp[-w_{\rm vac}V\mathcal T],\qquad
+w_{\rm vac}=\frac{(|e|E)^2}{4\pi^3\hbar^2c}
+\sum_{n=1}^{\infty}\frac{1}{n^2}
+\exp\!\left(-n\pi\frac{E_S}{E}\right).
+\tag{2}
+</script>
+</div>
+<p>这里 <span class="arithmatex"><span class="MathJax_Preview">w_{\rm vac}</span><script type="math/tex">w_{\rm vac}</script></span> 的量纲为 <span class="arithmatex"><span class="MathJax_Preview">\mathrm{m^{-3}s^{-1}}</span><script type="math/tex">\mathrm{m^{-3}s^{-1}}</script></span>。它严格说是真空持续概率衰减密度；在稀少产生等相应近似下，可用领先指数估计对产生。不能在所有条件下都把整级数直接当作平均粒子对计数率。[R1–R2]</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">E_S</span><script type="math/tex">E_S</script></span> 是特征尺度，不是低于它绝对零、高于它突然全开的开关。有限实验的可见性还受体积、时间、背景与探测效率影响。[R2]</p>
+<h3 id="22-h">2.2 可以借用的是“非微扰势垒”，不是电子的全部性质【H】</h3>
+<p>本文借鉴：普通工作态可以非常稳定；足够特殊的驱动使稀有过程不再不可测；产生率可能对作用量呈指数敏感。</p>
+<p>本文不借用以下未经证明的等号：</p>
+<p><strong>真空涨落 = 空间自由改写；反粒子 = 反空间；成对产生 = 远端开门；湮灭 = 免费能源。</strong></p>
+<p>此外，成对出现不表示两者一定马上复合；寿命、分离和相互作用要由具体动力学决定。</p>
+<h3 id="23-rh">2.3 动态辅助的现实启发【R/H】</h3>
+<p>现实研究提出，强而缓慢的场与弱而快速的场在特定脉冲条件下组合，可能使原本强烈受抑制的对产生显著增强。增强依赖脉冲形状、频率与背景，不是任何高频噪声都有效。[R3–R4]</p>
+<p>AE 可以据此探索“深域背景＋精确构态调制＋短时辅助激励”的实验路线。但 QED 中的增强系数和临界参数不能原样搬成界序数值。</p>
+<hr />
+<h2 id="3">3．理论分层：先保证旧物理仍然成立</h2>
+<h3 id="31-ph">3.1 界序不是额外坐标【P/H】</h3>
+<p>沿用旧稿符号：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\mathfrak X=(V,\prec,\Omega,\nu).
+\tag{3}
+</div>
+<script type="math/tex; mode=display">
+\mathfrak X=(V,\prec,\Omega,\nu).
+\tag{3}
+</script>
+</div>
+<p>但对其用途作更清楚的区分：<span class="arithmatex"><span class="MathJax_Preview">V</span><script type="math/tex">V</script></span> 表示基本事件及局域自由度；<span class="arithmatex"><span class="MathJax_Preview">\prec</span><script type="math/tex">\prec</script></span> 描述事件间的因果关系；<span class="arithmatex"><span class="MathJax_Preview">\Omega</span><script type="math/tex">\Omega</script></span> 表示关系耦合；<span class="arithmatex"><span class="MathJax_Preview">\nu</span><script type="math/tex">\nu</script></span> 给出局域权重。做计算时，我们从一段事件历史中选取某个切片，使用它的空间邻接图。<strong>空间邻接通常是对称的，因果偏序是有向的，二者不能当成同一矩阵。</strong></p>
+<p>关系先于连续几何的构想与因果集、涌现局域性模型有思想亲缘，但这些现实研究并不证明宏观可控改界。[R7–R8]</p>
+<p>还必须排除纯重命名：若把全部节点、物质与参考标记同时置换，<span class="arithmatex"><span class="MathJax_Preview">\Omega\mapsto P\Omega P^T</span><script type="math/tex">\Omega\mapsto P\Omega P^T</script></span> 只可能是等价描述。真正改界须改变载荷与外部实物、时钟和测量端之间的可观测关系；不能用“把银河标签改成 M87”冒充运输。后文的 <span class="arithmatex"><span class="MathJax_Preview">\theta</span><script type="math/tex">\theta</script></span> 也须对应可读的相对构态，而非纯规范自由度。</p>
+<h3 id="32-d">3.2 旧稿空间图作用量的修正【D】</h3>
+<p>单独写：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\frac12\sum_{i&lt;j}\Omega_{ij}(\phi_i-\phi_j)^2
+</div>
+<script type="math/tex; mode=display">
+\frac12\sum_{i<j}\Omega_{ij}(\phi_i-\phi_j)^2
+</script>
+</div>
+<p>只得到空间耦合能。它非负，不会凭自己生成一条具有不同符号的时间维。一个更诚实的教学模型是：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+S_{\phi}=\int d\tau\left[
+\frac12\sum_i M_i\dot\phi_i^2
+-\frac12\sum_{i&lt;j}K_{ij}\Omega_{ij}(\phi_i-\phi_j)^2
+-\sum_i V_i(\phi_i)\right].
+\tag{4}
+</div>
+<script type="math/tex; mode=display">
+S_{\phi}=\int d\tau\left[
+\frac12\sum_i M_i\dot\phi_i^2
+-\frac12\sum_{i<j}K_{ij}\Omega_{ij}(\phi_i-\phi_j)^2
+-\sum_i V_i(\phi_i)\right].
+\tag{4}
+</script>
+</div>
+<p>这里 <span class="arithmatex"><span class="MathJax_Preview">\tau</span><script type="math/tex">\tau</script></span> 是本模型的演化参数；它不是第五个空间坐标。对均匀立方近邻网、间距 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span>、<span class="arithmatex"><span class="MathJax_Preview">M_i=M</span><script type="math/tex">M_i=M</script></span>、耦合 <span class="arithmatex"><span class="MathJax_Preview">K</span><script type="math/tex">K</script></span>，取无质量小扰动，可得：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\omega^2(\mathbf k)=\frac{4K}{M}\sum_{j=1}^{3}\sin^2\left(\frac{k_ja}{2}\right)
+\simeq\frac{Ka^2}{M}|\mathbf k|^2.
+\tag{5}
+</div>
+<script type="math/tex; mode=display">
+\omega^2(\mathbf k)=\frac{4K}{M}\sum_{j=1}^{3}\sin^2\left(\frac{k_ja}{2}\right)
+\simeq\frac{Ka^2}{M}|\mathbf k|^2.
+\tag{5}
+</script>
+</div>
+<p>低波数下出现波动速度 <span class="arithmatex"><span class="MathJax_Preview">c_{\rm eff}=a\sqrt{K/M}</span><script type="math/tex">c_{\rm eff}=a\sqrt{K/M}</script></span>。这说明“空间传播速度可从耦合结构中出现”有一个可算例子；<strong>尚未推出 Einstein 方程、相对论普适性或标准模型</strong>。还须解释不同物质为何共享合适的低能因果结构，以及晶格各向异性等效应如何受抑制。</p>
+<h3 id="33-ph">3.3 对应原理是匹配要求，不是写出箭头就完成推导【P/H】</h3>
+<p>用自然单位 <span class="arithmatex"><span class="MathJax_Preview">\hbar=c=1</span><script type="math/tex">\hbar=c=1</script></span>，本稿要求低能有效作用量具有：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+S_{\rm eff}=\int d^4x\sqrt{-g}\left[
+\frac{M_P^2}{2}(R-2\Lambda_b)
++\mathcal L_{\rm known}(g,\Psi)
++\mathcal L_{\rm GSD}(g,N)
++\sum_{d&gt;4}\frac{c_d}{\Lambda_\Xi^{d-4}}\mathcal O_d
+\right].
+\tag{6}
+</div>
+<script type="math/tex; mode=display">
+S_{\rm eff}=\int d^4x\sqrt{-g}\left[
+\frac{M_P^2}{2}(R-2\Lambda_b)
++\mathcal L_{\rm known}(g,\Psi)
++\mathcal L_{\rm GSD}(g,N)
++\sum_{d>4}\frac{c_d}{\Lambda_\Xi^{d-4}}\mathcal O_d
+\right].
+\tag{6}
+</script>
+</div>
+<p>其中 <span class="arithmatex"><span class="MathJax_Preview">M_P^2=1/(8\pi G)</span><script type="math/tex">M_P^2=1/(8\pi G)</script></span>；<span class="arithmatex"><span class="MathJax_Preview">N</span><script type="math/tex">N</script></span> 沿用 DP-01 的度规—联络偏离变量；<span class="arithmatex"><span class="MathJax_Preview">\mathcal L_{\rm known}</span><script type="math/tex">\mathcal L_{\rm known}</script></span> 代表已知物质理论；<span class="arithmatex"><span class="MathJax_Preview">\mathcal O_d</span><script type="math/tex">\mathcal O_d</script></span> 为量纲 <span class="arithmatex"><span class="MathJax_Preview">d</span><script type="math/tex">d</script></span> 的允许算符。此式是<strong>匹配模板</strong>，不是已经得到的微观作用量。有效场论提供了组织低能与未知高能贡献的方法论背景。[R10]</p>
+<p>DP-01 的宇宙学／星系级几何响应不得被一句“所有修正都极小”删除。正确要求是：在已验证的局域实验范围内恢复既有结果；在项目指定的暗现象范围内保留 GSD 响应；新界序缺陷在普通条件下极少被真实激发。</p>
+<p>无缺陷并不意味着所有新物理修正严格为零。虚激发仍可重整化低能参数或生成受抑制算符，这些也必须通过对应检验。</p>
+<hr />
+<h2 id="4">4．最小新增假说：界序有“可重接的受限工作态”</h2>
+<p>本文只先为受控工程边界建模，不声称已经写出整个宇宙的量子引力方程。</p>
+<p><strong>H1：钉扎。</strong> 普通局域关系有稳定工作相，重接需要跨越能隙与势垒。</p>
+<p><strong>H2：缺陷。</strong> 工程边界上的某个可激发模式允许带相反绕转数的缺陷；这些缺陷不是神秘宇宙物质库存。</p>
+<p><strong>H3：可驱动。</strong> 已有 GSD 控制器可以对这个模式做功，深域背景可能改变其有效参数。</p>
+<p><strong>H4：非局域重接。</strong> 特定缺陷态可以激活普通相几乎不工作的远程关系变更机制。</p>
+<p><strong>H5：因果相容。</strong> 所有可实现的关系变更共享一套无环的物理因果规则。</p>
+<p><strong>H6：承载。</strong> 存在有限时间的边界替换过程，承载域内部动力学保持连续。</p>
+<p>H1–H3 可由下文的简化模型展示条件性后果；H4–H6 是从“发现现象”走向“CL8”的独立新物理要求。删除 H4，即使 H1–H3 全部成立，也不会自动出现超光速。</p>
+<hr />
+<h2 id="5">5．界序缺陷模型：相反的是取向，不是能量</h2>
+<h3 id="51-h">5.1 定义一条工程边界上的相位变量【H】</h3>
+<p>在边界的一条受控通道上，以物理长度 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span>、局域时间 <span class="arithmatex"><span class="MathJax_Preview">\tau</span><script type="math/tex">\tau</script></span> 定义无量纲集体变量 <span class="arithmatex"><span class="MathJax_Preview">\theta(x,\tau)</span><script type="math/tex">\theta(x,\tau)</script></span>。它描述候选的连接登记相位，不是额外空间方向。</p>
+<p>选择有效作用量：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+S_\theta=\int d\tau\,dx\left[
+\frac{\rho_\theta}{2}(\partial_\tau\theta)^2
+-\frac{\kappa_\theta}{2}(\partial_x\theta)^2
+-U_\Xi(1-\cos\theta)+f(x,\tau)\theta
+\right].
+\tag{7}
+</div>
+<script type="math/tex; mode=display">
+S_\theta=\int d\tau\,dx\left[
+\frac{\rho_\theta}{2}(\partial_\tau\theta)^2
+-\frac{\kappa_\theta}{2}(\partial_x\theta)^2
+-U_\Xi(1-\cos\theta)+f(x,\tau)\theta
+\right].
+\tag{7}
+</script>
+</div>
+<p><strong>单位账本：</strong><span class="arithmatex"><span class="MathJax_Preview">[\rho_\theta]=\mathrm{J\,s^2/m}</span><script type="math/tex">[\rho_\theta]=\mathrm{J\,s^2/m}</script></span>，<span class="arithmatex"><span class="MathJax_Preview">[\kappa_\theta]=\mathrm{J\,m}</span><script type="math/tex">[\kappa_\theta]=\mathrm{J\,m}</script></span>，<span class="arithmatex"><span class="MathJax_Preview">[U_\Xi]=[f]=\mathrm{J/m}</span><script type="math/tex">[U_\Xi]=[f]=\mathrm{J/m}</script></span>。被积项是能量／长度，积分得到作用量。</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\theta</span><script type="math/tex">\theta</script></span> 在无驱动时具有周期钉扎；有驱动时用<strong>展开的相位分支</strong>记录执行器做功。<span class="arithmatex"><span class="MathJax_Preview">f\theta</span><script type="math/tex">f\theta</script></span> 不是定义在一个紧致圆周上的全局单值静态势，也不是无限可用能库；只在给定的有限重接周期中使用，执行器和重置代价另行入账。</p>
+<p>运动方程为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\rho_\theta\partial_\tau^2\theta
+-\kappa_\theta\partial_x^2\theta
++U_\Xi\sin\theta=f.
+\tag{8}
+</div>
+<script type="math/tex; mode=display">
+\rho_\theta\partial_\tau^2\theta
+-\kappa_\theta\partial_x^2\theta
++U_\Xi\sin\theta=f.
+\tag{8}
+</script>
+</div>
+<h3 id="52-d">5.2 普通相为什么不容易改变【D】</h3>
+<p>当 <span class="arithmatex"><span class="MathJax_Preview">f=0</span><script type="math/tex">f=0</script></span>、<span class="arithmatex"><span class="MathJax_Preview">\theta</span><script type="math/tex">\theta</script></span> 在某个极小值附近小幅振荡时：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\omega^2=c_\Xi^2k^2+\omega_0^2,
+\quad c_\Xi=\sqrt{\kappa_\theta/\rho_\theta},
+\quad \omega_0=\sqrt{U_\Xi/\rho_\theta}.
+\tag{9}
+</div>
+<script type="math/tex; mode=display">
+\omega^2=c_\Xi^2k^2+\omega_0^2,
+\quad c_\Xi=\sqrt{\kappa_\theta/\rho_\theta},
+\quad \omega_0=\sqrt{U_\Xi/\rho_\theta}.
+\tag{9}
+</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">\rho_\theta,\kappa_\theta,U_\Xi&gt;0</span><script type="math/tex">\rho_\theta,\kappa_\theta,U_\Xi>0</script></span> 时，这个线性模式有正动能、正刚度与实频能隙。局部可探测性会因能隙与耦合强弱而受限，但不能断言“小扰动永远测不出新自由度”。</p>
+<p>本稿的 <span class="arithmatex"><span class="MathJax_Preview">c_\Xi</span><script type="math/tex">c_\Xi</script></span> 只是<strong>边界模式的局域传播速度</strong>，不承担跨星系超光速。候选低能实现可取 <span class="arithmatex"><span class="MathJax_Preview">c_\Xi\le c</span><script type="math/tex">c_\Xi\le c</script></span>，不能把希腊下标当作超光速授权。</p>
+<h3 id="53-d">5.3 缺陷与反缺陷【D】</h3>
+<p>无驱动静态方程有连接相邻极小值的解：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\theta_+(x)=4\arctan\exp\!\left(\frac{x-x_0}{\xi_\Xi}\right),
+\quad \xi_\Xi=\sqrt{\kappa_\theta/U_\Xi}.
+\tag{10}
+</div>
+<script type="math/tex; mode=display">
+\theta_+(x)=4\arctan\exp\!\left(\frac{x-x_0}{\xi_\Xi}\right),
+\quad \xi_\Xi=\sqrt{\kappa_\theta/U_\Xi}.
+\tag{10}
+</script>
+</div>
+<p>反向解对应反缺陷。以边界渐近值或闭环绕数定义：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+Q_\Xi=\frac{1}{2\pi}\int dx\,\partial_x\theta.
+\tag{11}
+</div>
+<script type="math/tex; mode=display">
+Q_\Xi=\frac{1}{2\pi}\int dx\,\partial_x\theta.
+\tag{11}
+</script>
+</div>
+<p>两个取向分别为 <span class="arithmatex"><span class="MathJax_Preview">+1</span><script type="math/tex">+1</script></span>、<span class="arithmatex"><span class="MathJax_Preview">-1</span><script type="math/tex">-1</script></span>。在两端条件不变、没有缺陷从边界输入输出的局部产生过程中，净 <span class="arithmatex"><span class="MathJax_Preview">Q_\Xi</span><script type="math/tex">Q_\Xi</script></span> 不变，所以从 <span class="arithmatex"><span class="MathJax_Preview">Q_\Xi=0</span><script type="math/tex">Q_\Xi=0</script></span> 状态产生的最简单非平凡组合是缺陷—反缺陷对。</p>
+<p>这并不是全宇宙所有缺陷都必须两两出现的证明。开放边界、不同拓扑和其他缺陷族可以改变表象；应计算整个系统的荷与边界流。</p>
+<p>单个静态缺陷能量为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\varepsilon_d=\int dx\left[\frac{\kappa_\theta}{2}(\partial_x\theta)^2+U_\Xi(1-\cos\theta)\right]
+=8\sqrt{\kappa_\theta U_\Xi}&gt;0.
+\tag{12}
+</div>
+<script type="math/tex; mode=display">
+\varepsilon_d=\int dx\left[\frac{\kappa_\theta}{2}(\partial_x\theta)^2+U_\Xi(1-\cos\theta)\right]
+=8\sqrt{\kappa_\theta U_\Xi}>0.
+\tag{12}
+</script>
+</div>
+<p>正、负缺陷都具有正能量。它们可以复合并将能量交给场、辐射或装置，不会因为拓扑荷相加为零就能量相加为零。</p>
+<p>因此，上一轮“开界缺陷／闭界缺陷”的形容只能作为某个已设计操作中的功能分工。<strong>拓扑绕转数不等于凭空增加／删除一条宇宙边的通用按钮。</strong></p>
+<hr />
+<h2 id="6">6．从势垒到成核率：可以推导到哪一步</h2>
+<h3 id="61-d">6.1 有驱动也未必立即失稳【D】</h3>
+<p>在一个准静态局域工作段，取 <span class="arithmatex"><span class="MathJax_Preview">f&gt;0</span><script type="math/tex">f>0</script></span>、<span class="arithmatex"><span class="MathJax_Preview">j=f/U_\Xi</span><script type="math/tex">j=f/U_\Xi</script></span>。对于 <span class="arithmatex"><span class="MathJax_Preview">0\le j&lt;1</span><script type="math/tex">0\le j<1</script></span>，局部势垒仍在。相邻极小值与鞍顶的势差为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\Delta U_{\rm barrier}
+=2U_\Xi\left[\sqrt{1-j^2}-j\arccos j\right].
+\tag{13}
+</div>
+<script type="math/tex; mode=display">
+\Delta U_{\rm barrier}
+=2U_\Xi\left[\sqrt{1-j^2}-j\arccos j\right].
+\tag{13}
+</script>
+</div>
+<p>当 <span class="arithmatex"><span class="MathJax_Preview">j\to1^-</span><script type="math/tex">j\to1^-</script></span>，势垒趋近于零；超过这一范围，经典局域失稳可以发生。这和“势垒尚在但发生量子隧穿”不是同一种机制。</p>
+<p>工程必须区分：热激活、外驱经典翻越、量子隧穿、多量子吸收以及它们的混合。只看“事件变多了”无法确定是哪一种。</p>
+<h3 id="62-hd">6.2 薄壁成核指数【H/D】</h3>
+<p>在 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 足够缓慢且近似均匀、缺陷宽度远小于成核尺度时，相邻相位分支每单位长度获得的驱动偏置为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\Delta\mathfrak f=2\pi f.
+\tag{14}
+</div>
+<script type="math/tex; mode=display">
+\Delta\mathfrak f=2\pi f.
+\tag{14}
+</script>
+</div>
+<p>对于一对相隔长度 <span class="arithmatex"><span class="MathJax_Preview">L</span><script type="math/tex">L</script></span> 的缺陷，可用近似能量账本：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\Delta E(L)\simeq2\varepsilon_d-\Delta\mathfrak f\,L,
+\tag{15}
+</div>
+<script type="math/tex; mode=display">
+\Delta E(L)\simeq2\varepsilon_d-\Delta\mathfrak f\,L,
+\tag{15}
+</script>
+</div>
+<p>其中能量下降来自执行器所建立的非平衡偏置，不是普通真空免费放能。</p>
+<p>在欧氏化的 <span class="arithmatex"><span class="MathJax_Preview">(x,c_\Xi\tau_E)</span><script type="math/tex">(x,c_\Xi\tau_E)</script></span> 工作面上，薄壁圆形 bounce 的候选作用量为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+S_E(R)=\frac1{c_\Xi}\left(2\pi R\varepsilon_d-\pi R^2\Delta\mathfrak f\right).
+\tag{16}
+</div>
+<script type="math/tex; mode=display">
+S_E(R)=\frac1{c_\Xi}\left(2\pi R\varepsilon_d-\pi R^2\Delta\mathfrak f\right).
+\tag{16}
+</script>
+</div>
+<p>驻点给出：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+R_* =\frac{\varepsilon_d}{\Delta\mathfrak f},
+\qquad
+B_\Xi\equiv\frac{S_E(R_*)}{\hbar}
+=\frac{\pi\varepsilon_d^2}{\hbar c_\Xi\Delta\mathfrak f}.
+\tag{17}
+</div>
+<script type="math/tex; mode=display">
+R_* =\frac{\varepsilon_d}{\Delta\mathfrak f},
+\qquad
+B_\Xi\equiv\frac{S_E(R_*)}{\hbar}
+=\frac{\pi\varepsilon_d^2}{\hbar c_\Xi\Delta\mathfrak f}.
+\tag{17}
+</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">B_\Xi</span><script type="math/tex">B_\Xi</script></span> 无量纲。<span class="arithmatex"><span class="MathJax_Preview">S_E</span><script type="math/tex">S_E</script></span> 对半径的二阶导数为负，因此这是有负模的<strong>鞍点</strong>，不是普通的“能量最低圆”。bounce 方法及指数／前因子的区分有现实场论方法论依据；此处对象、参数和物理解释属于 AE 模型。[R5–R6]</p>
+<p>相应稀少成核率可写：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+r_\Xi\simeq\mathcal A_\Xi e^{-B_\Xi},
+\qquad [r_\Xi]=[\mathcal A_\Xi]=\mathrm{m^{-1}s^{-1}}.
+\tag{18}
+</div>
+<script type="math/tex; mode=display">
+r_\Xi\simeq\mathcal A_\Xi e^{-B_\Xi},
+\qquad [r_\Xi]=[\mathcal A_\Xi]=\mathrm{m^{-1}s^{-1}}.
+\tag{18}
+</script>
+</div>
+<p>这里是一维通道单位长度、单位时间的率，<strong>不是三维体积率</strong>。前因子 <span class="arithmatex"><span class="MathJax_Preview">\mathcal A_\Xi</span><script type="math/tex">\mathcal A_\Xi</script></span> 需由涨落和具体系统计算，本稿没有任意指定幂次。改变维数、缺陷形态或场分布后，指数的函数形式也可能改变。</p>
+<h3 id="63">6.3 适用范围不能省略</h3>
+<p>至少要求 <span class="arithmatex"><span class="MathJax_Preview">R_*\gg\xi_\Xi</span><script type="math/tex">R_*\gg\xi_\Xi</script></span>、驱动区能容纳约 <span class="arithmatex"><span class="MathJax_Preview">2R_*</span><script type="math/tex">2R_*</script></span>、背景在成核尺度上变化较小、驱动持续时间足够、产生事件稀少到反作用尚可控。若不满足，应重解完整边界值问题，不能继续套用式（17）。</p>
+<p>这使此前直接类比写出的 <span class="arithmatex"><span class="MathJax_Preview">\exp[-\pi H_c/H]</span><script type="math/tex">\exp[-\pi H_c/H]</script></span> 获得一个更具体的含义：**在选定的低维、准静态、薄壁模型中，指数来自缺陷代价与驱动做功之间的竞争。**它不是所有宇宙环境的统一公式。</p>
+<h3 id="64-de">6.4 “临界”更适合定义为可观测门槛【D/E】</h3>
+<p>对有限实验：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+N_{\rm exp}=\int d\tau\,dx\,\eta_{\rm det}(x,\tau)\,r_\Xi(x,\tau),
+\quad P(N\ge1)\simeq1-e^{-N_{\rm exp}}.
+\tag{19}
+</div>
+<script type="math/tex; mode=display">
+N_{\rm exp}=\int d\tau\,dx\,\eta_{\rm det}(x,\tau)\,r_\Xi(x,\tau),
+\quad P(N\ge1)\simeq1-e^{-N_{\rm exp}}.
+\tag{19}
+</script>
+</div>
+<p>只有在近似独立稀少事件下才使用此泊松表达。实验室所称“过门槛”，应明确是 <span class="arithmatex"><span class="MathJax_Preview">N_{\rm exp}</span><script type="math/tex">N_{\rm exp}</script></span> 达到检出或生产要求，而不是宇宙出现一条绝对开关线。</p>
+<hr />
+<h2 id="7">7．黑洞深域怎样进入公式，而不变成万能解释</h2>
+<h3 id="71-dp-01-ph">7.1 与 DP-01 的接口【P/H】</h3>
+<p>DP-01 已用：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+N^\alpha{}_{\mu\nu}=\Gamma^\alpha{}_{\mu\nu}-\{^\alpha{}_{\mu\nu}\}_g
+</div>
+<script type="math/tex; mode=display">
+N^\alpha{}_{\mu\nu}=\Gamma^\alpha{}_{\mu\nu}-\{^\alpha{}_{\mu\nu}\}_g
+</script>
+</div>
+<p>描述额外联络构态。本稿不另造不相干的“黑洞能量”，而让边界模型系数由同一有效背景决定：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+U_\Xi=U_\Xi[\mathcal I,N,\nabla N,\text{控制态}],\quad
+\kappa_\theta=\kappa_\theta[\cdots],\quad
+f=f[\text{实际执行器与背景}].
+\tag{20}
+</div>
+<script type="math/tex; mode=display">
+U_\Xi=U_\Xi[\mathcal I,N,\nabla N,\text{控制态}],\quad
+\kappa_\theta=\kappa_\theta[\cdots],\quad
+f=f[\text{实际执行器与背景}].
+\tag{20}
+</script>
+</div>
+<p>真正要从多深域实验得到的，就是这些关系的形式、适用区和共同参数。</p>
+<h3 id="72-h">7.2 使用无量纲的局域环境指标【H】</h3>
+<p>理想真空黑洞外部可以有 <span class="arithmatex"><span class="MathJax_Preview">R_{\mu\nu}=0</span><script type="math/tex">R_{\mu\nu}=0</script></span>，但潮汐曲率并不为零；不能说“黑洞旁 <span class="arithmatex"><span class="MathJax_Preview">R</span><script type="math/tex">R</script></span> 很大”就完成耦合。[P2；R15]</p>
+<p>可在实验装置的单位四速度 <span class="arithmatex"><span class="MathJax_Preview">u^\mu</span><script type="math/tex">u^\mu</script></span> 下分解 Weyl 曲率，定义空间潮汐张量 <span class="arithmatex"><span class="MathJax_Preview">\mathcal E_{ab}</span><script type="math/tex">\mathcal E_{ab}</script></span>、<span class="arithmatex"><span class="MathJax_Preview">\mathcal B_{ab}</span><script type="math/tex">\mathcal B_{ab}</script></span>，并构造：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\mathcal I_\Xi=\ell_\Xi^4
+\left(\mathcal E_{ab}\mathcal E^{ab}+\mathcal B_{ab}\mathcal B^{ab}\right).
+\tag{21}
+</div>
+<script type="math/tex; mode=display">
+\mathcal I_\Xi=\ell_\Xi^4
+\left(\mathcal E_{ab}\mathcal E^{ab}+\mathcal B_{ab}\mathcal B^{ab}\right).
+\tag{21}
+</script>
+</div>
+<p>空间指标使用装置局域正交架，<span class="arithmatex"><span class="MathJax_Preview">\mathcal I_\Xi</span><script type="math/tex">\mathcal I_\Xi</script></span> 无量纲、非负，但依赖实际观测运动状态；它不是无条件的宇宙绝对标量。<span class="arithmatex"><span class="MathJax_Preview">\ell_\Xi</span><script type="math/tex">\ell_\Xi</script></span> 为候选微观长度，未定数值。</p>
+<p>仅为演示“正势垒可以被有限降低”，可取一个有界参数族：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+U_\Xi(\mathcal I)=U_0\exp\!\left[-a\frac{\mathcal I}{1+\mathcal I}\right],
+\quad a&gt;0.
+\tag{22}
+</div>
+<script type="math/tex; mode=display">
+U_\Xi(\mathcal I)=U_0\exp\!\left[-a\frac{\mathcal I}{1+\mathcal I}\right],
+\quad a>0.
+\tag{22}
+</script>
+</div>
+<p>此处降低势垒的符号是<strong>特意选取的候选</strong>，不是黑洞性质的已知定理。它保持 <span class="arithmatex"><span class="MathJax_Preview">U_\Xi&gt;0</span><script type="math/tex">U_\Xi>0</script></span>，避免随意写出负质量平方或奇点分母；实验仍须决定此模型是否应被否决。完整版本可以依赖 <span class="arithmatex"><span class="MathJax_Preview">N</span><script type="math/tex">N</script></span> 和驱动频谱，但不能无限加参数来吸收所有反例。</p>
+<h3 id="73-rd">7.3 大黑洞不是局域曲率最大的天体【R/D】</h3>
+<p>对 Schwarzschild 模型：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\mathcal K=\frac{48G^2M^2}{c^4r^6},\quad r_s=\frac{2GM}{c^2},\quad
+\mathcal K(r_s)=\frac{3c^8}{4G^4M^4}.
+\tag{23}
+</div>
+<script type="math/tex; mode=display">
+\mathcal K=\frac{48G^2M^2}{c^4r^6},\quad r_s=\frac{2GM}{c^2},\quad
+\mathcal K(r_s)=\frac{3c^8}{4G^4M^4}.
+\tag{23}
+</script>
+</div>
+<p>质量增加十倍，视界处该标量降为原来的万分之一。故“黑洞越大，界序门槛必然越低”不可接受。[R15；P2]</p>
+<p>超大质量黑洞的项目价值应来自<strong>可布设尺度、持续时间、可控制体积、环境组合和试验重复性</strong>。某种局域激发可能在小黑洞旁更容易，大型承载实验却可能只在较大黑洞附近有足够的安全基线。二者并不矛盾。</p>
+<p>银心、大麦哲伦、M32、M31 的作用，是提供不同条件的实验样本，不是四个自动解锁科技的关卡；也不保证每个目标都比前一个更优。</p>
+<p>还有一道不可跳过的门槛：若新过程只在普朗克尺度的局域曲率才显著，普通超大质量黑洞外部不因此自动满足条件。本稿必须另行找到适用的集体耦合、可积累作用量或可驱动模式，并让式（20）经检验成立；仅写“靠近视界”不能补足缺失的新物理。</p>
+<h3 id="74">7.4 深域提供条件，但不免费供能</h3>
+<p>如果背景只改变有效势垒，它是实验背景／催化条件；缺陷能量仍由驱动器支付。若确实提取黑洞旋转能、吸积能等，必须另外计入背景能量变化和回馈。不能同时声称黑洞只是催化剂，又用它解释所有能量从何而来。</p>
+<hr />
+<h2 id="8">8．辅助成核：突破可能来自频谱，而不是只来自功率</h2>
+<h3 id="81-h">8.1 候选驱动【H】</h3>
+<p>可设有限脉冲：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+f(\tau)=f_s(\tau)+f_f\,g(\tau)\cos(\omega\tau+\varphi),
+\quad \max_\tau|f(\tau)|&lt;U_\Xi.
+\tag{24}
+</div>
+<script type="math/tex; mode=display">
+f(\tau)=f_s(\tau)+f_f\,g(\tau)\cos(\omega\tau+\varphi),
+\quad \max_\tau|f(\tau)|<U_\Xi.
+\tag{24}
+</script>
+</div>
+<p>最后的不等式用于研究“势垒仍在”的子区间；若跨过去，应另归为经典过垒过程。</p>
+<p>线性小扰动的示意响应为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\delta\theta(\omega)=
+\frac{\delta f(\omega)}{U_\Xi-\rho_\theta\omega^2-i\eta\omega},
+\tag{25}
+</div>
+<script type="math/tex; mode=display">
+\delta\theta(\omega)=
+\frac{\delta f(\omega)}{U_\Xi-\rho_\theta\omega^2-i\eta\omega},
+\tag{25}
+</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">\eta&gt;0</span><script type="math/tex">\eta>0</script></span> 为耗散参数。频谱可以改变局部响应，但式（25）本身仍是线性方程，<strong>不计算成核率</strong>。</p>
+<h3 id="82-bouncehd">8.2 辅助成核需要重新找 bounce【H/D】</h3>
+<p>可把变化记为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+B_{\rm assist}=B_{\rm slow}-\Delta B[\omega,f_f,g,\varphi,\text{背景}].
+\tag{26}
+</div>
+<script type="math/tex; mode=display">
+B_{\rm assist}=B_{\rm slow}-\Delta B[\omega,f_f,g,\varphi,\text{背景}].
+\tag{26}
+</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">\Delta B</span><script type="math/tex">\Delta B</script></span> 不预设总为正，也不在本稿里给出假精确系数。时间依赖驱动必须通过合适的实时间量子演化或复时间半经典路径处理。把式（17）中的 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 换成峰值，只能作为未经验证的粗略估计。</p>
+<p>现实动态辅助施温格工作支持“时序和频谱能显著改变非微扰过程”的研究方向，不支持直接把某一实验结果移植成改界性能。[R3–R4]</p>
+<h3 id="83-ae-e">8.3 对 AE 科学史的意义【E】</h3>
+<p>早期埃纳已经有巨大的能源、测地控制和高能实验设施，却可能长期不见可利用缺陷。后来几个独立深域重复观察到某种仅在特定相位次序下出现的异常，才发现关键不是更大的反应器，而是正确的联合激励。</p>
+<p>织域体提供精密背景控制；轴环体提供高能场与脉冲；非生命标准装置提供独立校验；高级埃纳共思用于提出竞争模型和审查偏差。<strong>生命与共思不是超越实验的特权，也不自动胜过机械系统。</strong></p>
+<hr />
+<h2 id="9">9．为什么宇宙不会平时不断“接错地方”</h2>
+<h3 id="91-hd">9.1 无驱动真空不持续产出正能量缺陷【H/D】</h3>
+<p>模型取无外部供能的普通工作相稳定。真实缺陷有正能量；零温无驱动时，不把量子涨落记成可反复取走的真实弹药。有限温度下的热激发要从热库支付能量。</p>
+<p>在小模型中，可以存在总荷为零的短时相关涨落，但这不等于留下一个宏观可用接口。</p>
+<h3 id="92">9.2 缺陷不是自我扩张的“更低宇宙真空”</h3>
+<p>无驱动时，两侧相位极小值等能，不给缺陷间区域一个永远向外扩大的体积收益。工程偏置只在有限工作层内存在；关闭驱动后不再继续获得 <span class="arithmatex"><span class="MathJax_Preview">-\Delta\mathfrak f L</span><script type="math/tex">-\Delta\mathfrak f L</script></span> 的收益。</p>
+<p>缺陷可以被钉扎、耗散地复合，或在系统允许的情况下留下有限局部缺陷。理想无耗散模型可能振荡或形成束缚态，<strong>不能直接从作用量断言都会立刻消失</strong>。回收和耗散必须实际设计。</p>
+<h3 id="93">9.3 微观事件很多，不等于世界迁移很多</h3>
+<p>宏观改界需要同时满足：缺陷存在、正确寻址、边界相干、载荷适配、能量供应和因果准入。它的偶发概率取决于联合过程，不能在未知相关性的情况下简单乘几个极小数来“证明安全”。</p>
+<p>任何候选模型若预言普通恒星、致密天体或已有加速环境会频繁产生未见的远程信息响应，必须修改或否决。宇宙稳定不是作者口头保证，而是待检验的约束。</p>
+<hr />
+<h2 id="10">10．从局部缺陷到“改谁在门外”：缺失的一步必须明写</h2>
+<h3 id="101-7d">10.1 只有式（7），仍然没有超光速【D】</h3>
+<p>式（7）是一条局域边界上的非线性场。即使它产生一万个缺陷，它也没有提供把银河端直接接到 M87 的规则。这一点不能用“拓扑”二字跳过。</p>
+<h3 id="102-h">10.2 新增非局域重接算符【H】</h3>
+<p>在一个教学性的边状态表示中，<span class="arithmatex"><span class="MathJax_Preview">\hat s^+_{ij}</span><script type="math/tex">\hat s^+_{ij}</script></span>、<span class="arithmatex"><span class="MathJax_Preview">\hat s^-_{ij}</span><script type="math/tex">\hat s^-_{ij}</script></span> 分别增加、减少局域自由度 <span class="arithmatex"><span class="MathJax_Preview">i,j</span><script type="math/tex">i,j</script></span> 的激活连接。定义配对换边算符：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\hat T_{cadb}=
+\hat s^+_{cb}\hat s^+_{da}\hat s^-_{ca}\hat s^-_{db},
+\qquad
+\hat H_{\rm rec}=\sum_{cadb}\left(J_{cadb}\hat T_{cadb}+J_{cadb}^*\hat T_{cadb}^\dagger\right).
+\tag{27}
+</div>
+<script type="math/tex; mode=display">
+\hat T_{cadb}=
+\hat s^+_{cb}\hat s^+_{da}\hat s^-_{ca}\hat s^-_{db},
+\qquad
+\hat H_{\rm rec}=\sum_{cadb}\left(J_{cadb}\hat T_{cadb}+J_{cadb}^*\hat T_{cadb}^\dagger\right).
+\tag{27}
+</script>
+</div>
+<p>它把两条关系：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+(c,a),(d,b)\longrightarrow(c,b),(d,a).
+\tag{28}
+</div>
+<script type="math/tex; mode=display">
+(c,a),(d,b)\longrightarrow(c,b),(d,a).
+\tag{28}
+</script>
+</div>
+<p>在理想终态，四个端口的连接数都不变。这里 <span class="arithmatex"><span class="MathJax_Preview">c</span><script type="math/tex">c</script></span> 可以是承载域边界端口，<span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 为出发端，<span class="arithmatex"><span class="MathJax_Preview">b</span><script type="math/tex">b</script></span> 为目的端，<span class="arithmatex"><span class="MathJax_Preview">d</span><script type="math/tex">d</script></span> 为补偿端口。完整载荷的运输需要很多端口及几何权重的一致匹配，一次四端口操作不等于搬走一只界舟。</p>
+<p>**核心新增假说在 <span class="arithmatex"><span class="MathJax_Preview">J_{cadb}</span><script type="math/tex">J_{cadb}</script></span>：**在普通相它几乎不起作用；受控缺陷态可增强某一类关系变更矩阵元；它的允许指标集合不必局限于旧度规中的近邻。</p>
+<p>可以工作性地写：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+J_{cadb}=J_*\,\chi_{\rm eng}\,\mathcal F_d[\theta]\,
+\mathcal M_{cadb}\,\mathcal C_{cadb}.
+\tag{29}
+</div>
+<script type="math/tex; mode=display">
+J_{cadb}=J_*\,\chi_{\rm eng}\,\mathcal F_d[\theta]\,
+\mathcal M_{cadb}\,\mathcal C_{cadb}.
+\tag{29}
+</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">J_*</span><script type="math/tex">J_*</script></span> 有能量量纲，其余因子无量纲：<span class="arithmatex"><span class="MathJax_Preview">\chi_{\rm eng}</span><script type="math/tex">\chi_{\rm eng}</script></span> 表示实际激励状态，<span class="arithmatex"><span class="MathJax_Preview">\mathcal F_d</span><script type="math/tex">\mathcal F_d</script></span> 是缺陷通道重叠，<span class="arithmatex"><span class="MathJax_Preview">\mathcal M</span><script type="math/tex">\mathcal M</script></span> 是地址与边界匹配，<span class="arithmatex"><span class="MathJax_Preview">\mathcal C</span><script type="math/tex">\mathcal C</script></span> 是因果准入结构。对无限目标集合，必须另外控制算符范数与总耦合，不能默认无限求和仍有有限代价。</p>
+<p>**式（27）不是从施温格效应或式（7）推出的。**它把此前暗藏在“直接换边”动作中的非局域新物理显式列了出来。这是理论必须承担的最大假设之一。</p>
+<h3 id="103">10.3 缺陷的实用定位</h3>
+<p>因此，界序缺陷不是交通工具本身，而是<strong>使特定边界关系进入可重接工作态的激发</strong>。它类似受控相位滑移的工程媒介；正、负取向与补偿关系共同避免把换边误写成凭空撕走一个空间区域。</p>
+<hr />
+<h2 id="11">11．改界实施：有限时间的边界替换，而不是一句指令</h2>
+<p>设承载域 <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span> 的内部权重为 <span class="arithmatex"><span class="MathJax_Preview">\Omega_{CC}</span><script type="math/tex">\Omega_{CC}</script></span>，与出发端、目的端的边界耦合分别为 <span class="arithmatex"><span class="MathJax_Preview">b_A</span><script type="math/tex">b_A</script></span>、<span class="arithmatex"><span class="MathJax_Preview">b_B</span><script type="math/tex">b_B</script></span>。候选过程满足：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+(b_A,b_B):(1,0)\longrightarrow(0,0)\longrightarrow(0,1),
+\tag{30}
+</div>
+<script type="math/tex; mode=display">
+(b_A,b_B):(1,0)\longrightarrow(0,0)\longrightarrow(0,1),
+\tag{30}
+</script>
+</div>
+<p>同时保持内部主结构与运行过程受控。</p>
+<h3 id="111">11.1 为什么出现暂时的“外部解耦”</h3>
+<p>若坚持旧门先关、新门后开，而且两者都连续变化，那么中间就要有外耦很弱乃至暂时为零的阶段。旧稿不能只说“不是虫洞”，却不承担这个物理问题。</p>
+<p>本稿候选是：内部自由度与时间演化继续存在，执行器暂时支撑一种不具普通四维流形邻域解释的边界态。它不是第五维航路，也不是飞船在无时间中悬停。<strong>这种自持态能否存在，是 H6 的具体研究对象。</strong></p>
+<p>若不能自持，就只能改用存在重叠耦合的迁运方案；那将更接近短寿命虫洞或瞬态拓扑连接，必须承认分类改变，不能硬靠命名区分。</p>
+<h3 id="112-d">11.2 一个可复核的连续控制曲线【D】</h3>
+<p>令 <span class="arithmatex"><span class="MathJax_Preview">s(z)=0</span><script type="math/tex">s(z)=0</script></span>（<span class="arithmatex"><span class="MathJax_Preview">z\le0</span><script type="math/tex">z\le0</script></span>）、<span class="arithmatex"><span class="MathJax_Preview">s(z)=3z^2-2z^3</span><script type="math/tex">s(z)=3z^2-2z^3</script></span>（<span class="arithmatex"><span class="MathJax_Preview">0&lt;z&lt;1</span><script type="math/tex">0<z<1</script></span>）、<span class="arithmatex"><span class="MathJax_Preview">s(z)=1</span><script type="math/tex">s(z)=1</script></span>（<span class="arithmatex"><span class="MathJax_Preview">z\ge1</span><script type="math/tex">z\ge1</script></span>）。取：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+b_A(\lambda)=1-s(\lambda/0.4),\qquad
+b_B(\lambda)=s((\lambda-0.6)/0.4).
+\tag{31}
+</div>
+<script type="math/tex; mode=display">
+b_A(\lambda)=1-s(\lambda/0.4),\qquad
+b_B(\lambda)=s((\lambda-0.6)/0.4).
+\tag{31}
+</script>
+</div>
+<p>在 <span class="arithmatex"><span class="MathJax_Preview">0\le\lambda\le1</span><script type="math/tex">0\le\lambda\le1</script></span> 上，两端有正确边界值；<span class="arithmatex"><span class="MathJax_Preview">b_Ab_B=0</span><script type="math/tex">b_Ab_B=0</script></span>；<span class="arithmatex"><span class="MathJax_Preview">0.4\le\lambda\le0.6</span><script type="math/tex">0.4\le\lambda\le0.6</script></span> 期间外耦都为零。<span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span> 是一个实际有限时长过程的进度变量，不是第五维。</p>
+<p>附件验证了这条曲线及固定内部图。**验证曲线存在不等于验证宇宙允许沿曲线运动。**缺失的动力学支撑不能省略。</p>
+<h3 id="113">11.3 与虫洞的区分以行为为准</h3>
+<p>永久 A—B 虫洞允许连续反复通过；一次改界结束后不留下同样的公众通道。实际过渡态若能让普通载荷反复经 A—C—B 通过，应计入虫洞式通行能力。</p>
+<p>旧稿的矩阵范数乘积只是粗略指标，不能独自保证没有实际通量。新验收须直接测量跨端传播、双向传输及对载荷的作用。</p>
+<hr />
+<h2 id="12_1">12．远界寻址：不能靠一张旧星图，也不能靠普通纠缠</h2>
+<h3 id="121">12.1 旧光学数据只提供先验</h3>
+<p>从遥远星系收到的光对应过去事件。它能提示目标类型和历史，但不能直接给出一个可以安全容纳界舟的“当前坐标”。在没有共同绝对同时性的描述中，更准确的任务是：<strong>找到一个满足既定因果顺序、可接受到达时刻和可用环境的目的端事件区域。</strong></p>
+<h3 id="122-rd">12.2 普通纠缠不能替我们探测远方【R/D】</h3>
+<p>对普通量子系统，非选择性的局域迹保持操作满足：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\operatorname{Tr}_A[(\mathcal E_A\otimes I_B)(\rho_{AB})]=\rho_B.
+\tag{32}
+</div>
+<script type="math/tex; mode=display">
+\operatorname{Tr}_A[(\mathcal E_A\otimes I_B)(\rho_{AB})]=\rho_B.
+\tag{32}
+</script>
+</div>
+<p>不借助额外相互作用或普通通信，A 方不能靠这种操作随意控制 B 方的局域统计。[R11]</p>
+<p>所以“缺陷成对＝纠缠＝知道另一端在哪”是错误链条。能纠缠不等于能发消息，更不等于能把另一端指定到没有去过的黑洞。</p>
+<h3 id="123-h">12.3 寻址必须测到真实的非局域响应【H】</h3>
+<p>本稿要求式（27）的新耦合产生可读响应。可用形式：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\chi^R_{BA}(\tau,\tau')=-\frac{i}{\hbar}\Theta(\tau-\tau')
+\langle[\hat O_B(\tau),\hat O_A(\tau')]\rangle.
+\tag{33}
+</div>
+<script type="math/tex; mode=display">
+\chi^R_{BA}(\tau,\tau')=-\frac{i}{\hbar}\Theta(\tau-\tau')
+\langle[\hat O_B(\tau),\hat O_A(\tau')]\rangle.
+\tag{33}
+</script>
+</div>
+<p>若候选界序工作态允许该响应超出旧有效度规的光锥，才真正出现新的传讯机制。这里的 <span class="arithmatex"><span class="MathJax_Preview">\tau</span><script type="math/tex">\tau</script></span> 只在指定的因果相容工作历史中使用；完整宇宙中要用事件偏序约束其支撑，不能把一个局域实验时钟擅自推广为全宇宙同时钟。</p>
+<p>响应必须有有限建立时间和有限信息容量，且不能在发起原因之前出现。远端不必有埃纳人工设备，但必须有可与新机制作用的自然构态。无响应、多候选或环境变化过快时，锁定应失败。</p>
+<p>这项非局域响应是<strong>独立于局部成核的新假说与验收项目</strong>。</p>
+<h3 id="124">12.4 “界址谱”不是唯一身份证</h3>
+<p>可联合谱、外部天体历史、动态响应、多个观测条件与路径一致性来形成候选。不能只用黑洞质量、自旋或一个图谱当作绝对唯一地址。</p>
+<p>附件实际找到两张六节点的连通、非同构图，其拉普拉斯特征多项式完全相同：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+p(z)=z^6-14z^5+73z^4-176z^3+192z^2-72z.
+\tag{34}
+</div>
+<script type="math/tex; mode=display">
+p(z)=z^6-14z^5+73z^4-176z^3+192z^2-72z.
+\tag{34}
+</script>
+</div>
+<p>它们的结构不同而谱相同。这是“谱匹配不足以唯一寻址”的具体反例，不是宇宙寻址仿真。</p>
+<p>旧稿 <span class="arithmatex"><span class="MathJax_Preview">e^{-\Delta^2/2}</span><script type="math/tex">e^{-\Delta^2/2}</script></span> 最多是一个似然形状，不能直接叫锁定成功概率。对多个候选，可写：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+P(B_k\mid D)=\frac{\pi_k\mathcal L(D\mid B_k)}{
+\pi_\varnothing\mathcal L(D\mid\varnothing)+\sum_j\pi_j\mathcal L(D\mid B_j)}.
+\tag{35}
+</div>
+<script type="math/tex; mode=display">
+P(B_k\mid D)=\frac{\pi_k\mathcal L(D\mid B_k)}{
+\pi_\varnothing\mathcal L(D\mid\varnothing)+\sum_j\pi_j\mathcal L(D\mid B_j)}.
+\tag{35}
+</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">\varnothing</span><script type="math/tex">\varnothing</script></span> 表示目标不存在或模型错误。两个候选同样匹配、先验相同，就不能给任意一个百分之百置信度。</p>
+<p>最终准入应包括新随机询问后的响应、交叉定位、目的环境变化率和容量测试；不能只靠先验照片与数据库自洽。</p>
+<hr />
+<h2 id="13">13．因果：保留对应原理，但不能声称旧相对论已准许全部过程</h2>
+<h3 id="131-rh">13.1 明确承担理论代价【R/H】</h3>
+<p>普通未改写区域继续服从其局域有效物理；新工作态允许旧四维描述之外的关系变更。这已经是对普通 GR/QFT 的适用范围扩展。</p>
+<p>因此应说：**“保留旧理论的有效极限，并在特殊非局域区引入新动力学。”**不应说：“相对论完全未被扩展，只是换了说法。”现实可超光速有效模型还会面对因果性、解析性与高能完备性等独立问题。[R14]</p>
+<h3 id="132-ph">13.2 全体历史无环是必要条件【P/H】</h3>
+<p>若新增关系集为 <span class="arithmatex"><span class="MathJax_Preview">R_{\rm new}</span><script type="math/tex">R_{\rm new}</script></span>，要求：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\prec'=\operatorname{TC}(\prec\cup R_{\rm new}),\qquad
+\nexists e:\ e\prec'e.
+\tag{36}
+</div>
+<script type="math/tex; mode=display">
+\prec'=\operatorname{TC}(\prec\cup R_{\rm new}),\qquad
+\nexists e:\ e\prec'e.
+\tag{36}
+</script>
+</div>
+<p>必须把普通信号、旧虫洞、多次改界、不同运动状态的发送端全部放在同一历史中检查。两个动作单独看都无环，不保证组合仍然无环。</p>
+<h3 id="133">13.3 一个足够但不唯一的候选实现</h3>
+<p>可以在允许工作的事件历史上存在一个因果高度函数 <span class="arithmatex"><span class="MathJax_Preview">T</span><script type="math/tex">T</script></span>，使每个实际关系都满足：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+T(e_2)-T(e_1)\ge\tau_{\min}(e_1,e_2)&gt;0.
+\tag{37}
+</div>
+<script type="math/tex; mode=display">
+T(e_2)-T(e_1)\ge\tau_{\min}(e_1,e_2)>0.
+\tag{37}
+</script>
+</div>
+<p>沿任何有向回路求和，会要求 <span class="arithmatex"><span class="MathJax_Preview">0&gt;0</span><script type="math/tex">0>0</script></span>，故不能形成回路。此为<strong>条件性数学论证</strong>。</p>
+<p>它不要求唯一归一化的“宇宙钟”；但若自然界在所有运动参考系中都强制遵循这样的额外结构，就对高能／非局域扇区提出了真实限制。优选分叶类引力模型说明这种研究方向有先例，但不能因此宣称所有难题都消失。[R13]</p>
+<p>因果集思想并不等价于这项优选机制，也不能被引用成“任何超光速都可以自动无悖论”的证明。[R8]</p>
+<h3 id="134">13.4 本稿尚未证明什么</h3>
+<p>未给出能够从局域执行器自然产生式（37）的完整微观动力学；未证明高能工作态的全体量子历史稳定；未证明不同改界系统在没有通信的情况下总能共同维护相容顺序。这些仍属于重大待解项，而非可在附注里抹去的小问题。</p>
+<p>现实普通引力波传播速度等观测已提供强约束，因此新响应不能被写成“普通引力波本来远超光速，过去一直没发现”。[R12]</p>
+<hr />
+<h2 id="14">14．主体连续性、边界闭合与到达安全</h2>
+<h3 id="141">14.1 连通指标只是底线</h3>
+<p>承载域内部图的 <span class="arithmatex"><span class="MathJax_Preview">\lambda_2[L_C]&gt;0</span><script type="math/tex">\lambda_2[L_C]>0</script></span> 可以排除简单空间断连，但不能识别意识。即使所有节点相连，也可能有巨大时延、信息损坏、重复自我或生理中断。</p>
+<p>应同时检查：局域时钟连续推进；记忆与因果过程可追溯；认知网络带宽与延迟保持在个体容许区；不存在“原件销毁—新件恢复”；无第二个并行原件；独立观察者与主体本身的长期复核一致。</p>
+<p>工程上可定义内部误差 <span class="arithmatex"><span class="MathJax_Preview">\epsilon_C</span><script type="math/tex">\epsilon_C</script></span>、关键通信最大延迟 <span class="arithmatex"><span class="MathJax_Preview">\tau_C</span><script type="math/tex">\tau_C</script></span>、完整性指标 <span class="arithmatex"><span class="MathJax_Preview">F_C</span><script type="math/tex">F_C</script></span> 等，但阈值来自具体主体，不得声称一个矩阵特征值代表全部生命伦理。</p>
+<h3 id="142">14.2 到达端不能被当成空白</h3>
+<p>目的端必须有足够的可用空间及适合边界展开的环境。已有物质、辐射、引力场和原有邻接都要被纳入匹配；不能让界舟与原有物质重叠，再解释成“空间已重写”。</p>
+<p>源端闭合和目标端展开需要完整边界关系。式（28）的补偿端口只是最低记账例子，不是对大尺度曲率、体积和场应力的完整解。</p>
+<h3 id="143">14.3 经典拓扑障碍没有被一句“微观”解除</h3>
+<p>经典平滑时空拓扑变化及可利用非平凡拓扑受到特定全局与能量条件约束。[R9、R16] 本稿选择在过渡边界暂时不满足普通平滑四维描述，但这只说明<strong>哪些定理前提可能不再适用</strong>，不证明实际转换安全。</p>
+<p>退回普通相时，场能、瞬态辐射和潮汐扰动必须保持在目的区域与载荷容许范围内。</p>
+<hr />
+<h2 id="15">15．能量、动量、热与失败的完整账本</h2>
+<h3 id="151-d">15.1 成对零荷不等于零成本【D】</h3>
+<p><span class="arithmatex"><span class="MathJax_Preview">+1</span><script type="math/tex">+1</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">-1</span><script type="math/tex">-1</script></span> 荷相消，单缺陷能量仍为 <span class="arithmatex"><span class="MathJax_Preview">\varepsilon_d&gt;0</span><script type="math/tex">\varepsilon_d>0</script></span>。产生、分离、钉扎、维持、寻址、切换和复原都要付费。撤除时可以回收部分能量，但不能回收超过总输入与实际消耗资源之和。</p>
+<h3 id="152">15.2 不使用无条件的“全宇宙能量标量”</h3>
+<p>沿用 DP-01，在明确的准局域工程边界、参考架与通量约定下记：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\Delta E_C+\Delta E_{\rm act}+\Delta E_\Xi
+=W_{\rm supplied}+W_{\rm background}
+-E_{\rm rad}-E_{\rm out}.
+\tag{38}
+</div>
+<script type="math/tex; mode=display">
+\Delta E_C+\Delta E_{\rm act}+\Delta E_\Xi
+=W_{\rm supplied}+W_{\rm background}
+-E_{\rm rad}-E_{\rm out}.
+\tag{38}
+</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">W_{\rm background}</span><script type="math/tex">W_{\rm background}</script></span> 只能表示实际提取的背景能量。动量、反冲与角动量同样计入。</p>
+<p>两个远端的局域正交标架可以作数学映射，但洛伦兹变换本身不是物理加速器。若到达后的运动状态发生实际改变，所需做功与反冲必须由系统承担。</p>
+<h3 id="153">15.3 面积与时间有下限，距离律仍开放</h3>
+<p>若承载边界面积为 <span class="arithmatex"><span class="MathJax_Preview">A_C</span><script type="math/tex">A_C</script></span>，相关尺度为 <span class="arithmatex"><span class="MathJax_Preview">\xi_\Xi</span><script type="math/tex">\xi_\Xi</script></span>，至少需要管理约 <span class="arithmatex"><span class="MathJax_Preview">A_C/\xi_\Xi^2</span><script type="math/tex">A_C/\xi_\Xi^2</script></span> 个边界单元。最简单的工程估计为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+E_{\rm build}\sim\frac{A_C}{\xi_\Xi^2}e_{\rm cell},
+\tag{39}
+</div>
+<script type="math/tex; mode=display">
+E_{\rm build}\sim\frac{A_C}{\xi_\Xi^2}e_{\rm cell},
+\tag{39}
+</script>
+</div>
+<p>但这只是一项预算，不包含高质量载荷回馈、故障容错和长期维护，也不是基本下界定理。</p>
+<p>总耗时：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\mathcal T_{\rm total}=\mathcal T_{\rm search}+\mathcal T_{\rm verify}
++\mathcal T_{\rm nucleate}+\mathcal T_{\rm match}+\mathcal T_{\rm switch}
++\mathcal T_{\rm settle}&gt;0.
+\tag{40}
+</div>
+<script type="math/tex; mode=display">
+\mathcal T_{\rm total}=\mathcal T_{\rm search}+\mathcal T_{\rm verify}
++\mathcal T_{\rm nucleate}+\mathcal T_{\rm match}+\mathcal T_{\rm switch}
++\mathcal T_{\rm settle}>0.
+\tag{40}
+</script>
+</div>
+<p>“有效超光速”需要在指定的旧背景比较中，使真实运输和信息到达早于普通光最早可能到达的事件。<strong>本文不填入未经推导的百万倍光速或零耗时。</strong></p>
+<p>距离可能通过候选搜索空间、响应衰减、维护时间与重试率影响成本。不是线性航程不代表免费无穷距离。</p>
+<h3 id="154">15.4 失效也必须有明确后果</h3>
+<p>成核不足可以导致无法进入工作态；错误寻址可以导致锁定失败；边界失配可以导致装置受损；载荷相干失效可能损坏主体；远端状态变动可能迫使延迟或中止。不能规定一切故障都“安全返回原地”，尤其转换已经越过可逆区以后。</p>
+<hr />
+<h2 id="16">16．它究竟是不是五维捷径，或者另一种虫洞</h2>
+<p>从外部结果看，这些方案都可能出现“没有沿旧空间走完遥远距离就到达”。这种相似无需否认。</p>
+<p>**本稿的区别是本体与操作，不是画面：**五维方案假设额外物理坐标，并存在沿高维的路径；界序方案让连接权重和允许相互作用变化，没有供界舟沿其航行的额外坐标。高维配置空间只是全部可能状态的集合，和现实多体系统的配置空间一样，不自动成为旅行目的地。</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\theta</span><script type="math/tex">\theta</script></span>、<span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span>、<span class="arithmatex"><span class="MathJax_Preview">\Omega</span><script type="math/tex">\Omega</script></span> 分别是模式、进度和关系变量，不能被写成“飞进这些变量里”。</p>
+<p>但我们也不能仅凭不写 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 就证明任何等效高维描述都不可能。未来完整数学模型可能存在对偶或高维表示。<strong>当前选择是不把额外可航行空间作为基本假设；不是已证明它绝无任何高维等效解释。</strong></p>
+<p>与虫洞的界线同样如此：永久附加连接与单次边界重接有不同操作历史，但在某些有效描述中可能出现瞬态虫洞式几何。如果最终只有那类解，必须如实改分类，而不是否定计算来保住词语。</p>
+<p>最短而不过度的表达是：</p>
+<blockquote>
+<p><strong>普通航行改变位置；虫洞维持额外通路；改界尝试替换承载域的外部连接。三者的区别最终由完整动力学和可测通量决定。</strong></p>
+</blockquote>
+<hr />
+<h2 id="17">17．实验设计：怎样在故事里一步一步证明</h2>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>实验需要看到什么</th>
+<th>尚不能宣布什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A：异常</td>
+<td>相同控制条件下可重复的额外响应；排除热、等离子体、器件缺陷与时钟漂移</td>
+<td>“发现界序”</td>
+</tr>
+<tr>
+<td>B：缺陷识别</td>
+<td>空间分布、相反绕转数、能量、寿命与相关性同时符合模型</td>
+<td>“发现远程连接”</td>
+</tr>
+<tr>
+<td>C：成核动力学</td>
+<td>变化场强、时间、温度、脉冲；竞争模型的预测可区分</td>
+<td>“任意强场都可开门”</td>
+</tr>
+<tr>
+<td>D：钉扎与回收</td>
+<td>在有限工作域分离缺陷、维持、复合；能量预算闭合</td>
+<td>“无限储存界序燃料”</td>
+</tr>
+<tr>
+<td>E：局部重接</td>
+<td>已知小型端口发生预先指定的连接交换，排除普通旁路</td>
+<td>“已能到 M87”</td>
+</tr>
+<tr>
+<td>F：非局域信息</td>
+<td>独立发起的新随机挑战在旧有效光锥允许前得到可验证响应；排除既有虫洞、泄漏与预置答案</td>
+<td>“已可承载生命”</td>
+</tr>
+<tr>
+<td>G：无生命承载</td>
+<td>可识别同一载荷连续到达；目的区占用、动量与场能一致</td>
+<td>“主体连续性已证明”</td>
+</tr>
+<tr>
+<td>H：主体迁运</td>
+<td>经自愿、逐级测试，完整生理与认知过程可追溯，无复制替代</td>
+<td>“所有主体都安全”</td>
+</tr>
+<tr>
+<td>I：自主未知端</td>
+<td>无埃纳接收站，仍能识别自然目的域、验证安全、完成抵达和返回</td>
+<td>“全宇宙任意可达”</td>
+</tr>
+<tr>
+<td>J：文明复制</td>
+<td>多个独立共同体能够制造、维护、故障处理并承载完整移动文明</td>
+<td>“唯一实验室特技”不再是限制，才达到确立 CL8 的核心门槛</td>
+</tr>
+</tbody>
+</table>
+<h3 id="171">17.1 多深域必须做预测检验</h3>
+<p>在银心与大麦哲伦拟合的有限参数，应对 M32 或 M31 的留出数据产生预测。不能每到新黑洞就独立重调所有常数，然后宣称普适规律得到证实。</p>
+<p>不只有正结果：在相同总能量下打乱脉冲相位、去掉某一辅助场、替换生物控制为独立机械标准、改变实验运动状态和远端候选，都应设计对照。</p>
+<h3 id="172">17.2 新随机信息比“同步闪了一下”更重要</h3>
+<p>相关峰、同频振动或早已约定的脉冲，都可能不是信号。真正升级到非局域信息的实验必须在发起以后才选择内容，接收结果不能依赖事后筛选。时空计量必须独立验证，并与实验区外可定义的普通最早因果路径比较。</p>
+<h3 id="173">17.3 意识伦理不能由数学替代</h3>
+<p>埃纳高级共思可以帮助设计、审查和理解实验；共思成员仍是独立主体。虫洞生命、界舟主体以及自愿参与者可以拒绝阶段升级。对暂时非主体工程生命也不能随便把“没有证据证明体验”当作任意损伤许可证。</p>
+<hr />
+<h2 id="18">18．实际计算结果：有用的推导，也有必要的负结果</h2>
+<p>随附 <code>supplement/verify_models.py</code> 已执行，22 项检查全部通过。它们是数学一致性与反例检查，不是 22 项现实物理验证。</p>
+<h3 id="181">18.1 真实常数量纲核对</h3>
+<p>使用计算环境中的物理常数得到：<span class="arithmatex"><span class="MathJax_Preview">E_S\approx1.32328548\times10^{18}\ \mathrm{V/m}</span><script type="math/tex">E_S\approx1.32328548\times10^{18}\ \mathrm{V/m}</script></span>，<span class="arithmatex"><span class="MathJax_Preview">2m_ec^2\approx1.02199790\ \mathrm{MeV}</span><script type="math/tex">2m_ec^2\approx1.02199790\ \mathrm{MeV}</script></span>。多位小数仅用于复核，正文仍采用三位量级表达。</p>
+<h3 id="182">18.2 缺陷解复核</h3>
+<p>在任意单位 <span class="arithmatex"><span class="MathJax_Preview">\kappa_\theta=\rho_\theta=U_\Xi=\hbar=1</span><script type="math/tex">\kappa_\theta=\rho_\theta=U_\Xi=\hbar=1</script></span> 下，单缺陷积分能量为 7.999999999999999，解析值为 8；绕转数约 0.999999999952；静态方程最大残差约 <span class="arithmatex"><span class="MathJax_Preview">5.55\times10^{-16}</span><script type="math/tex">5.55\times10^{-16}</script></span>。相隔 16 个宽度的缺陷—反缺陷试探构型净荷近零、能量接近 16。该成对试探构型不是精确有限间距静态解。</p>
+<h3 id="183">18.3 势垒下降的指数收益，不代表已经能生产</h3>
+<p>取同一任意单位下 <span class="arithmatex"><span class="MathJax_Preview">\Delta\mathfrak f=0.2</span><script type="math/tex">\Delta\mathfrak f=0.2</script></span>，仅改变 <span class="arithmatex"><span class="MathJax_Preview">U_\Xi</span><script type="math/tex">U_\Xi</script></span>。这些值<strong>没有从黑洞观测拟合，也不是未来埃纳设备参数</strong>。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;"><span class="arithmatex"><span class="MathJax_Preview">U_\Xi</span><script type="math/tex">U_\Xi</script></span></th>
+<th style="text-align: right;">单缺陷能量</th>
+<th style="text-align: right;"><span class="arithmatex"><span class="MathJax_Preview">R_*/\xi_\Xi</span><script type="math/tex">R_*/\xi_\Xi</script></span></th>
+<th style="text-align: right;">成核指数 <span class="arithmatex"><span class="MathJax_Preview">B_\Xi</span><script type="math/tex">B_\Xi</script></span></th>
+<th style="text-align: right;"><span class="arithmatex"><span class="MathJax_Preview">\log_{10}(r_\Xi/\mathcal A_\Xi)</span><script type="math/tex">\log_{10}(r_\Xi/\mathcal A_\Xi)</script></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">8.0</td>
+<td style="text-align: right;">40.0</td>
+<td style="text-align: right;">1005.31</td>
+<td style="text-align: right;">−436.60</td>
+</tr>
+<tr>
+<td style="text-align: right;">0.81</td>
+<td style="text-align: right;">7.2</td>
+<td style="text-align: right;">32.4</td>
+<td style="text-align: right;">814.30</td>
+<td style="text-align: right;">−353.65</td>
+</tr>
+<tr>
+<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">25.6</td>
+<td style="text-align: right;">643.40</td>
+<td style="text-align: right;">−279.42</td>
+</tr>
+<tr>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">5.6</td>
+<td style="text-align: right;">19.6</td>
+<td style="text-align: right;">492.60</td>
+<td style="text-align: right;">−213.93</td>
+</tr>
+</tbody>
+</table>
+<p>从 1.00 变为 0.64，在相同前因子假设下，率提高约 <span class="arithmatex"><span class="MathJax_Preview">10^{157.18}</span><script type="math/tex">10^{157.18}</script></span> 倍。然而绝对率相对于前因子仍只有约 <span class="arithmatex"><span class="MathJax_Preview">10^{-279.42}</span><script type="math/tex">10^{-279.42}</script></span>。</p>
+<p>**所以“增强惊人”与“工程可用”可以同时一真一假。**这正适合埃纳先发现微弱效应、再投入漫长跨深域研究的技术史。</p>
+<p>再取纯演示的有效试验暴露量 <span class="arithmatex"><span class="MathJax_Preview">\mathcal A_\Xi L\mathcal T=10^{24}</span><script type="math/tex">\mathcal A_\Xi L\mathcal T=10^{24}</script></span>：<span class="arithmatex"><span class="MathJax_Preview">B=120</span><script type="math/tex">B=120</script></span> 时预期事件约 <span class="arithmatex"><span class="MathJax_Preview">7.67\times10^{-29}</span><script type="math/tex">7.67\times10^{-29}</script></span>；<span class="arithmatex"><span class="MathJax_Preview">B=60</span><script type="math/tex">B=60</script></span> 时约 0.00876；<span class="arithmatex"><span class="MathJax_Preview">B=48</span><script type="math/tex">B=48</script></span> 时约 1425。这里只说明门槛依赖作用量和暴露量，不指定真实生产能力。</p>
+<h3 id="184">18.4 地址和连续性的反例</h3>
+<p>计算找到了式（34）的同谱异构图，否定“谱相同即目标相同”的推理；还检查了固定 16 节点环内部的正连通性及式（31）的不重叠开关。但后者没有任何意识模拟，也没有模拟真实空间迁运。</p>
+<p>有限 DAG 检查能发现人为加入的因果回路；普通 Bell 对的局域幺正操作没有改变另一侧边缘态。两者分别说明：<strong>无环是要检查的；普通纠缠不会替我们完成寻址。</strong></p>
+<hr />
+<h2 id="19cl7cl8">19．CL7→CL8 科学史：不改写索恩的旧航程</h2>
+<p>**早期深域时代：**GSD 与测地工程已经能控制某些几何响应，虫洞网络需要端点和长期维护。没有自主遥远寻址。</p>
+<p>**索恩远岸时代：**首次亚光速抵达、约八千年级外围至核心航程和尚未开通的施工／标定链继续有效。不能用后来的界序解释给当时的银河增加即时知情能力。</p>
+<p>**多深域时代：**大麦哲伦及 M32、M31 等不同环境的研究者比较数据。最早异常可能只是缺陷相关计数，不是界舟消失。</p>
+<p>**缺陷控制时代：**先学会保持可复现的少量缺陷，再学会有限重接。这个阶段可以很长，也可能有反复失败。</p>
+<p>**CL8 萌芽：**已经建立的双端深域之间，越光信息与小载荷实验成功。因两端本来有虫洞，实验必须排除既有通路的暗中贡献。</p>
+<p>**CL8 确立：**在没有埃纳目的端设备的地方完成自主寻址、往返与完整个人文明迁运，并且多个独立共同体都能复制这一能力。</p>
+<p>M87 继续保留为重要候选，而非本稿替用户冻结的唯一首次远征终点。大麦哲伦深域的建立也不需要等到 CL8；恰恰是早期远岸工程创造了后续突破的条件。</p>
+<hr />
+<h2 id="20">20．对生命体系、交通与冲突的影响</h2>
+<h3 id="201">20.1 深域仍然重要</h3>
+<p>发现地点不等于永远唯一可用地点。初代成核可能依赖天然强场与大型设施；后来若能把所需局部工作条件工程化，才可能下放到界舟。<strong>本稿不因此批准移动设备替代完整黑洞育生环境。</strong></p>
+<p>界舟可以迁运，虫洞生命与其他高阶伙伴仍可能需要深域完成出生、关键发育和某些维护。运输革命不等于取消生命的再生产条件。</p>
+<h3 id="202">20.2 虫洞伙伴没有被废掉</h3>
+<p>改界需要重新寻址、建域和退稳，虫洞可以用于已建立地点之间长期高吞吐交通。这是待验证的成本分工，不是为了保角色强行规定“改界不准常用”。</p>
+<p>TW 的路径与因果经验、GW 的边界控制、EW／轴环的驱动与热管理、CV 的巨大承载和主体连续性，可以参与新工程；具体分工仍受个体意愿和设备性能决定。</p>
+<h3 id="203">20.3 不人为禁止技术的军事后果</h3>
+<p>真实非局域信息和载荷运输必然改变侦察、救援与战争。不能只允许界舟和平抵达，却说无人设备原理上绝不能使用。</p>
+<p>同时，大天体寻址成功不等于能把小载荷送进敌人身体；空间分辨率、目标动态、未知物质占用和边界匹配仍然要算。未来若有人真的突破这些限制，应该承认战争规则随之改变，而不是靠作者口头禁止。</p>
+<p>本稿只界定宏观后果，不设计具体打击流程或杀伤参数。</p>
+<hr />
+<h2 id="21">21．待审核的结论与尚未闭合的核心问题</h2>
+<h3 id="_2">建议纳入候选基线</h3>
+<p><strong>界序成核</strong>为 CL8 理论提供微观发现入口；缺陷对是受限模式的相反拓扑取向，不是正负能量；深域通过改变可测有效参数与工作空间帮助成核，而不是无限能量源；频谱和相干调制可能决定是否可观测；成核、非局域响应、寻址、主体迁运与文明复制是不同层级；旧理论的对应极限及旧远岸历史保持。</p>
+<h3 id="_3">本文实际证明到的范围</h3>
+<p>在选择的边界模型中：可得到稳定小扰动、正能缺陷、拓扑荷、准静态势垒、薄壁成核指数与量纲闭合；可构造连续边界开关并检查反例。这些是条件性数学结果。</p>
+<h3 id="_4">不得宣称已证明的内容</h3>
+<p>没有从第一原理推出全套 GR 与标准模型；没有从 QED 推出界序自由度；没有从局部缺陷推出非局域 <span class="arithmatex"><span class="MathJax_Preview">J_{cadb}</span><script type="math/tex">J_{cadb}</script></span>；没有求出宏观承载域稳定解；没有证明所有量子历史的因果保护；没有给出真实的黑洞—参数耦合、最大载荷、能量、距离或速度。</p>
+<p>后续最值得解决的不是再添一个名称，而是：<strong>把局部可算缺陷与受约束非局域重接连接成同一动力学，并在一个包含源端、目标端、执行器和有限载荷的小系统里求出至少一个完整、稳定、守恒的转换解。</strong></p>
+<hr />
+<h2 id="22">22．结论</h2>
+<p>施温格机制最有力量的启发，不是“真空中可以拿出东西”，而是<strong>稳定背景可以在特定驱动下显现非微扰过程，且这个过程能够从异常逐步变成可测和可控对象</strong>。</p>
+<p>把这一方法用于 Project AE，可把 CL8 的起点从抽象的“更高方程”落实到一次具体发现：同一实验条件下，一对相反取向的界序缺陷产生、分离、留下响应，再在受控条件下复合。埃纳首先学会测量与保存这一现象，随后才发现其中一类激发允许关系变更；再经过独立验证，才走到远端寻址和承载域改界。</p>
+<p>这条路线既保留其文明级力量，也保留科学史中重要的层次：<strong>发现一种自然过程、知道怎样驱动它、证明能载信息、证明能运生命，是不同成就。</strong></p>
+<p>最终，确立 CL8 的不是一次宏大闪光，而是多个独立埃纳文明都能够承担、复现和维护的结果：同一个主体带着自己的生活与伙伴离开，抵达一个此前没有人为他修好道路的地方，并保有回来和继续生长的条件。</p>
+<hr />
+<h2 id="_5">参考文献与核对范围</h2>
+<p>现实来源只为方法与边界提供依据，不为 AE 超光速结论背书。以下来源于原作者论文、原发表机构或大学作者资料；检索核对日期为 2026-09-11。未宣称阅读付费墙后的全部全文。</p>
+<p><strong>[R1]</strong> J. Schwinger. <em>On Gauge Invariance and Vacuum Polarization</em>. Physical Review <strong>82</strong>, 664–679 (1951). DOI: <code>10.1103/PhysRev.82.664</code>。核对：期刊摘要、出版信息；背景场有效作用与真空对产生的理论入口。https://journals.aps.org/pr/abstract/10.1103/PhysRev.82.664</p>
+<p><strong>[R2]</strong> G. V. Dunne. <em>Heisenberg–Euler Effective Lagrangians: Basics and Extensions</em>. arXiv:<code>hep-th/0406216</code> (2004). DOI: <code>10.1142/9789812775344_0014</code>。核对：HTML，§1 常场虚部与非微扰展开、后文不均匀背景；式（1）—（2）的现实基础。https://arxiv.org/html/hep-th/0406216v1</p>
+<p><strong>[R3]</strong> R. Schützhold, H. Gies, G. Dunne. <em>Dynamically assisted Schwinger mechanism</em>. Physical Review Letters <strong>101</strong>, 130404 (2008). DOI: <code>10.1103/PhysRevLett.101.130404</code>，arXiv:<code>0807.0754</code>。核对：HTML 正文的慢强场／快弱场及半经典指数讨论。https://arxiv.org/html/0807.0754v1</p>
+<p><strong>[R4]</strong> G. V. Dunne, H. Gies, R. Schützhold. <em>Catalysis of Schwinger Vacuum Pair Production</em>. Physical Review D <strong>80</strong>, 111301 (2009). DOI: <code>10.1103/PhysRevD.80.111301</code>，arXiv:<code>0908.0948</code>。核对：原论文摘要及书目信息；不将其数值直接作为 AE 参数。https://arxiv.org/abs/0908.0948</p>
+<p><strong>[R5]</strong> S. Coleman. <em>Fate of the false vacuum: Semiclassical theory</em>. Physical Review D <strong>15</strong>, 2929–2936 (1977)；勘误 D <strong>16</strong>, 1248 (1977). DOI: <code>10.1103/PhysRevD.15.2929</code>。核对：期刊摘要与勘误入口；半经典势垒穿越的方法论。https://journals.aps.org/prd/abstract/10.1103/PhysRevD.15.2929</p>
+<p><strong>[R6]</strong> C. G. Callan, Jr., S. Coleman. <em>Fate of the false vacuum. II. First quantum corrections</em>. Physical Review D <strong>16</strong>, 1762–1768 (1977). DOI: <code>10.1103/PhysRevD.16.1762</code>。核对：期刊摘要；指数与涨落前因子的区分。https://journals.aps.org/prd/abstract/10.1103/PhysRevD.16.1762</p>
+<p><strong>[R7]</strong> T. Konopka, F. Markopoulou, S. Severini. <em>Quantum graphity: A model of emergent locality</em>. Physical Review D <strong>77</strong>, 104029 (2008). DOI: <code>10.1103/PhysRevD.77.104029</code>，arXiv:<code>0801.0861</code>。核对：作者论文摘要；动态图、低能局域相及其有限成果。https://arxiv.org/abs/0801.0861</p>
+<p><strong>[R8]</strong> S. Surya. <em>The causal set approach to quantum gravity</em>. Living Reviews in Relativity <strong>22</strong>, 5 (2019). DOI: <code>10.1007/s41114-019-0023-1</code>，arXiv:<code>1903.11544</code>。核对：HTML，基础偏序、连续极限与§3.2洛伦兹对称；不将其与新增优选因果机制混同。https://arxiv.org/html/1903.11544v2</p>
+<p><strong>[R9]</strong> A. Borde. <em>Topology Change in Classical General Relativity</em>. arXiv:<code>gr-qc/9406053</code>。核对：原论文摘要；经典拓扑变化的全局和因果限制。https://arxiv.org/abs/gr-qc/9406053</p>
+<p><strong>[R10]</strong> J. F. Donoghue. <em>General relativity as an effective field theory: The leading quantum corrections</em>. Physical Review D <strong>50</strong>, 3874–3888 (1994). DOI: <code>10.1103/PhysRevD.50.3874</code>，arXiv:<code>gr-qc/9405057</code>。核对：原论文摘要和期刊资料；有效理论匹配方法，不是全套涌现模型的证明。https://arxiv.org/abs/gr-qc/9405057</p>
+<p><strong>[R11]</strong> G. C. Ghirardi, A. Rimini, T. Weber. <em>A general argument against superluminal transmission through the quantum mechanical measurement process</em>. Lettere al Nuovo Cimento <strong>27</strong>, 293–298 (1980). DOI: <code>10.1007/BF02817189</code>。核对：原出版页面；论文年份为1980，网页后来的电子上线日期不是原始发表年。式（32）另作标准迹保持映射下的直接数学说明。https://link.springer.com/article/10.1007/BF02817189</p>
+<p><strong>[R12]</strong> LIGO Scientific Collaboration, Virgo Collaboration, Fermi GBM, INTEGRAL. <em>Gravitational Waves and Gamma-rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A</em>. Astrophysical Journal Letters <strong>848</strong>, L13 (2017). DOI: <code>10.3847/2041-8213/aa920c</code>，arXiv:<code>1710.05834</code>。核对：摘要给出的传播速度约束；仅用于普通传播的对应检验。https://arxiv.org/abs/1710.05834</p>
+<p><strong>[R13]</strong> D. Blas, O. Pujolàs, S. Sibiryakov. <em>Models of non-relativistic quantum gravity: The good, the bad and the healthy</em>. JHEP <strong>2011</strong>, 018. arXiv:<code>1007.3503</code>。核对：原论文摘要；优选分叶类理论的研究背景，不等于确认该理论为真实。https://arxiv.org/abs/1007.3503</p>
+<p><strong>[R14]</strong> A. Adams, N. Arkani-Hamed, S. Dubovsky, A. Nicolis, R. Rattazzi. <em>Causality, Analyticity and an IR Obstruction to UV Completion</em>. JHEP <strong>2006</strong>, 014. arXiv:<code>hep-th/0602178</code>。核对：原论文摘要；特定有效理论的因果／高能完备性问题，不作覆盖所有可能新物理的普遍禁令。https://arxiv.org/abs/hep-th/0602178</p>
+<p><strong>[R15]</strong> L. Bombelli，University of Mississippi，<em>Geometry of Schwarzschild Spacetime</em> 作者课程／研究资料页。核对：Schwarzschild 曲率不变量；式（23）的视界代入由本文完成。https://www.phy.olemiss.edu/~luca/Topics/bh_types/schw_geom.html</p>
+<p><strong>[R16]</strong> J. L. Friedman, K. Schleich, D. M. Witt. <em>Topological Censorship</em>. Physical Review Letters <strong>71</strong>, 1486–1489 (1993)；勘误 <strong>75</strong>, 1872 (1995). arXiv:<code>gr-qc/9305017v2</code>。核对：原论文摘要及勘误说明；主定理保留其全局双曲、渐近平直和能量条件等适用前提，不采用已被修正的次级结论。https://arxiv.org/abs/gr-qc/9305017</p>
+<h3 id="_6">项目内来源</h3>
+<p><strong>[P1]</strong> <code>Project_AE_CL8_界序动力学与改界迁航_科学原理草案_V0.2.md</code>：已实际读取，旧稿原文随附件留档。</p>
+<p><strong>[P2]</strong> <code>DP-01_时空构态动力学_关键理论论文_候选V0.1.md</code>：已读取理论变量、深域耦合、对应与能量边界相关章节；原文随附件留档。</p>
+<p><strong>[P3]</strong> V1.4.14 总包中的 <code>83_CL8界序动力学_改界迁航与对应原理_V1.0.md</code>：已实际读取，作为本稿继承的当前总控。</p>
+<p><strong>[P4]</strong> 本轮会话新增方向：以施温格强场非微扰过程启发界序成核，但不得把类比自动当成现实推导或工程可行性。</p>
+<hr />
+<h2 id="a">附录 A｜符号与量纲速查</h2>
+<table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义</th>
+<th>本稿单位／状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\Omega</span><script type="math/tex">\Omega</script></span></td>
+<td>底层关系耦合</td>
+<td>工作性无量纲权重</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\prec</span><script type="math/tex">\prec</script></span></td>
+<td>事件因果偏序</td>
+<td>关系，不是空间方向</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\theta</span><script type="math/tex">\theta</script></span></td>
+<td>边界集体相位的展开分支</td>
+<td>无量纲</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\rho_\theta</span><script type="math/tex">\rho_\theta</script></span></td>
+<td>相位惯性系数</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\mathrm{J\,s^2/m}</span><script type="math/tex">\mathrm{J\,s^2/m}</script></span></td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\kappa_\theta</span><script type="math/tex">\kappa_\theta</script></span></td>
+<td>相位梯度刚度</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\mathrm{J\,m}</span><script type="math/tex">\mathrm{J\,m}</script></span></td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">U_\Xi,f</span><script type="math/tex">U_\Xi,f</script></span></td>
+<td>周期钉扎能密度、驱动偏置</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\mathrm{J/m}</span><script type="math/tex">\mathrm{J/m}</script></span></td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\xi_\Xi</span><script type="math/tex">\xi_\Xi</script></span></td>
+<td>缺陷宽度</td>
+<td>m</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\varepsilon_d</span><script type="math/tex">\varepsilon_d</script></span></td>
+<td>单缺陷能量</td>
+<td>J</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\Delta\mathfrak f</span><script type="math/tex">\Delta\mathfrak f</script></span></td>
+<td>每绕转的驱动能差／长度</td>
+<td>J/m</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">B_\Xi</span><script type="math/tex">B_\Xi</script></span></td>
+<td>成核欧氏作用量除以 <span class="arithmatex"><span class="MathJax_Preview">\hbar</span><script type="math/tex">\hbar</script></span></td>
+<td>无量纲</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\mathcal A_\Xi,r_\Xi</span><script type="math/tex">\mathcal A_\Xi,r_\Xi</script></span></td>
+<td>前因子、一维成核率</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\mathrm{m^{-1}s^{-1}}</span><script type="math/tex">\mathrm{m^{-1}s^{-1}}</script></span></td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">J_{cadb}</span><script type="math/tex">J_{cadb}</script></span></td>
+<td>非局域重接矩阵元</td>
+<td>J；未知新物理</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">b_A,b_B</span><script type="math/tex">b_A,b_B</script></span></td>
+<td>旧、新边界归一化耦合</td>
+<td>无量纲</td>
+</tr>
+<tr>
+<td><span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span></td>
+<td>过程进度</td>
+<td>无量纲；非物理维度</td>
+</tr>
+</tbody>
+</table>
+<h2 id="b">附录 B｜本稿明确禁止的后续偷换</h2>
+<p>不能把缺陷叫负能量材料；不能把巨大增强写成已达到实用产率；不能把黑洞质量当作唯一强场旋钮；不能用普通纠缠远界寻址；不能把一个谱拟合自动变成唯一目标；不能把选定的无环规则说成完整因果保护已证明；不能把图连通当意识证明；不能把连续开关曲线当真实迁运解；不能把对应要求冒充完整统一理论；不能让 CL8 技术倒灌索恩早期远岸时代。</p>
+<h2 id="c">附录 C｜附件说明</h2>
+<p>本文件可独立阅读。专题 ZIP 另含原论文与总控快照、计算脚本、CSV／JSON 结果、版本差异审查及 SHA-256 清单。<strong>它是 CL8 论文专题包，不是新的 Project AE 完整母包。</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.indexes", "navigation.top", "navigation.prune", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
